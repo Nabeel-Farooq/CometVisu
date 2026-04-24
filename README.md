@@ -11,11 +11,11 @@ How to get it:
 
 The latest release can be downloaded at:
 
-    https://github.com/CometVisu/CometVisu/releases/latest
+    https://github.com/Nabeel-Farooq/CometVisu/releases/latest
 
 The latest nightly builds can be downloaded at (please be aware that nightly builds are experimental):
 
-    https://github.com/CometVisu/CometVisu/releases
+    https://github.com/Nabeel-Farooq/CometVisu/releases
     
 Note: When you own a WireGate the CometVisu comes already pre-installed.
 You will only need to download a new version from GitHub when the shipped version
