@@ -27,18 +27,6 @@ How to install it:
 
 Please see the [INSTALL](./INSTALL.md) file.
 
-Instructions for developers:
-============================
-
-Please have a look at the [DEVELOPMENT](./DEVELOPMENT.md) file.
-
-Documentation:
-==============
-
-The documentation and latest information can be found at:
-    
-http://www.cometvisu.org/
-    
 Support:
 ========
 
