@@ -1,0 +1,128 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-10-21 14:26+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+
+
+#: utils/docutils/directives/api_doc.py:54
+msgid "Available since"
+msgstr ""
+
+#: utils/docutils/directives/api_doc.py:55
+msgid "Author"
+msgstr ""
+
+#: utils/docutils/directives/backend_transform.py:86
+msgid "example"
+msgstr ""
+
+#: utils/docutils/directives/backend_transform.py:86
+#: utils/docutils/directives/backend_transform.py:90
+msgid "description"
+msgstr ""
+
+#: utils/docutils/directives/backend_transform.py:86
+#: utils/docutils/directives/backend_transform.py:90
+msgid "max"
+msgstr ""
+
+#: utils/docutils/directives/backend_transform.py:86
+#: utils/docutils/directives/backend_transform.py:90
+msgid "min"
+msgstr ""
+
+#: utils/docutils/directives/backend_transform.py:86
+#: utils/docutils/directives/backend_transform.py:90
+msgid "name"
+msgstr ""
+
+#: utils/docutils/directives/backend_transform.py:86
+#: utils/docutils/directives/backend_transform.py:90
+msgid "unit"
+msgstr ""
+
+#: utils/docutils/directives/common.py:44
+#: utils/docutils/directives/common.py:68
+#: utils/docutils/directives/common.py:70
+msgid "or"
+msgstr ""
+
+#: utils/docutils/directives/common.py:45
+msgid "string"
+msgstr ""
+
+#: utils/docutils/directives/common.py:46
+msgid "decimal"
+msgstr ""
+
+#: utils/docutils/directives/common.py:47
+msgid "uri"
+msgstr ""
+
+#: utils/docutils/directives/common.py:48
+msgid "addr"
+msgstr ""
+
+#: utils/docutils/directives/common.py:49
+msgid "nonNegativeInteger"
+msgstr ""
+
+#: utils/docutils/directives/common.py:50
+msgid "dimension"
+msgstr ""
+
+#: utils/docutils/directives/common.py:118
+#: utils/docutils/directives/common.py:124
+#: utils/docutils/directives/common.py:208
+#: utils/docutils/directives/common.py:215
+msgid "mandatory"
+msgstr ""
+
+#: utils/docutils/directives/common.py:139
+#: utils/docutils/directives/common.py:145
+#: utils/docutils/directives/common.py:281
+#: utils/docutils/directives/common.py:287
+msgid "Attribute"
+msgstr ""
+
+#: utils/docutils/directives/common.py:139
+#: utils/docutils/directives/common.py:281
+msgid "Element"
+msgstr ""
+
+#: utils/docutils/directives/common.py:140
+#: utils/docutils/directives/common.py:146
+#: utils/docutils/directives/common.py:282
+#: utils/docutils/directives/common.py:288
+msgid "Content"
+msgstr ""
+
+#: utils/docutils/directives/common.py:140
+#: utils/docutils/directives/common.py:146
+#: utils/docutils/directives/common.py:282
+#: utils/docutils/directives/common.py:288
+msgid "Description"
+msgstr ""
+
+#: utils/docutils/directives/common.py:140
+#: utils/docutils/directives/common.py:146
+#: utils/docutils/directives/common.py:282
+#: utils/docutils/directives/common.py:288
+msgid "Name"
+msgstr ""
+
+#: utils/docutils/directives/common.py:282
+msgid "Structure"
+msgstr ""
+

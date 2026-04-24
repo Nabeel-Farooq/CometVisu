@@ -1,0 +1,1264 @@
+## Change Log
+
+0.12.3
+======
+
+- [#1344](https://github.com/CometVisu/CometVisu/pull/1344) use root here, because it always exists. Possible fix for sentry erroh… (@peuter)
+
+0.12.2
+======
+
+- [#1339](https://github.com/CometVisu/CometVisu/pull/1339) Cherry picking fixes for web-widget and speech plugin (@peuter)
+- [#1313](https://github.com/CometVisu/CometVisu/pull/1313) Do not process influx data by backend processors, because it is alreal… (@peuter)
+
+0.12.1
+======
+
+- [#1290](https://github.com/CometVisu/CometVisu/pull/1290) check for openhab environent and php support. (@peuter)
+
+0.12.0
+======
+
+### v0.12.0-RC12 (2022/05/11)
+
+- [#1277](https://github.com/CometVisu/CometVisu/pull/1278) set navbars to inactive before bailing out (@peuter)
+
+### v0.12.0-RC11 (2022/05/11)
+
+- [#1277](https://github.com/CometVisu/CometVisu/pull/1277) only skip if the navbar has a scope set (@peuter)
+
+### v0.12.0-RC10 (2022/05/11)
+
+- [#1276](https://github.com/CometVisu/CometVisu/pull/1276) Fix 2d pages. (@ChristianMayer)
+- [#1274](https://github.com/CometVisu/CometVisu/pull/1274) Bump grunt from 1.4.1 to 1.5.2 (@dependabot[bot])
+- [#1275](https://github.com/CometVisu/CometVisu/pull/1275) Fix navbar on subpages where it is not inherited anymore. (@ChristianMayer)
+- [#1273](https://github.com/CometVisu/CometVisu/pull/1273) Update documentation according to user feedback (@ChristianMayer)
+- [#1270](https://github.com/CometVisu/CometVisu/pull/1270) update file content after save (@peuter)
+- [#1272](https://github.com/CometVisu/CometVisu/pull/1272) Bump axios from 0.21.1 to 0.21.4 (@dependabot[bot])
+- [#1269](https://github.com/CometVisu/CometVisu/pull/1269) Enhance english documentation of clock plugin. (@ChristianMayer)
+- [#1271](https://github.com/CometVisu/CometVisu/pull/1271) Bump simple-git from 3.3.0 to 3.5.0 in /.github/actions/github (@dependabot[bot])
+- [#1267](https://github.com/CometVisu/CometVisu/pull/1267) replace some special characters in attribute values (@peuter)
+- [#1265](https://github.com/CometVisu/CometVisu/pull/1265) Use more standard mechanism to fix mobile firefox. (@ChristianMayer)
+- [#1264](https://github.com/CometVisu/CometVisu/pull/1264) Enhance MQTT transfom documentation (@ChristianMayer)
+- [#1261](https://github.com/CometVisu/CometVisu/pull/1261) use space as clearfix content, fixes layout problem in chrome (@peuter)
+- [#1262](https://github.com/CometVisu/CometVisu/pull/1262) fix configuration upgrader process (@peuter)
+
+### v0.12.0-RC9 (2022/03/23)
+
+- [#1252](https://github.com/CometVisu/CometVisu/pull/1252) Optimize diagram (@ChristianMayer)
+- [#1258](https://github.com/CometVisu/CometVisu/pull/1258) Fix documentation according to review. (@ChristianMayer)
+- [#1256](https://github.com/CometVisu/CometVisu/pull/1256) remove android blue background highlight on tap (@peuter)
+- [#1254](https://github.com/CometVisu/CometVisu/pull/1254) Make 2d3d demo work again (see also #1208) (@ChristianMayer)
+- [#1253](https://github.com/CometVisu/CometVisu/pull/1253) Optimize navbar handling. (@ChristianMayer)
+- [#1251](https://github.com/CometVisu/CometVisu/pull/1251) Fix touch passive warnings (@ChristianMayer)
+- [#1249](https://github.com/CometVisu/CometVisu/pull/1249) Handle when SVG for TrickOMatic is loading too quickly (@ChristianMayer)
+- [#1248](https://github.com/CometVisu/CometVisu/pull/1248) Bump simple-git from 2.35.1 to 3.3.0 in /.github/actions/github (@dependabot[bot])
+- [#1247](https://github.com/CometVisu/CometVisu/pull/1247) Clock plugin: Fix initialisation problems. (@ChristianMayer)
+- [#1246](https://github.com/CometVisu/CometVisu/pull/1246) fix gradient background definition (@peuter)
+- [#1245](https://github.com/CometVisu/CometVisu/pull/1245) Fix clients (@peuter)
+- [#1243](https://github.com/CometVisu/CometVisu/pull/1243) Fix MQTT retain and QoS (@ChristianMayer)
+
+### v0.12.0-RC8 (2022/03/13)
+
+- [#1241](https://github.com/CometVisu/CometVisu/pull/1241) Fix clock plugin transform error (@ChristianMayer)
+
+### v0.12.0-RC7 (2022/03/12)
+
+- [#1240](https://github.com/CometVisu/CometVisu/pull/1240) Cherry pick for 0.12.0-RC7 (@ChristianMayer)
+- [#1239](https://github.com/CometVisu/CometVisu/pull/1239) Make clock plugin more robust during startup. (@ChristianMayer)
+- [#1237](https://github.com/CometVisu/CometVisu/pull/1237) handle cases when indexedb cannot be opened (@peuter)
+- [#1233](https://github.com/CometVisu/CometVisu/pull/1233) MQTT refinement (@ChristianMayer)
+- [#1236](https://github.com/CometVisu/CometVisu/pull/1236) Fix icon display of cached config when mapping ranges are used. (@ChristianMayer)
+- [#1232](https://github.com/CometVisu/CometVisu/pull/1232) Bump karma from 6.3.14 to 6.3.16 (@dependabot[bot])
+- [#1230](https://github.com/CometVisu/CometVisu/pull/1230) Doc + Data-provider fixes (@peuter)
+- [#1228](https://github.com/CometVisu/CometVisu/pull/1228) replace jquery rssparser that used the google api that is not availabl… (@peuter)
+- [#1227](https://github.com/CometVisu/CometVisu/pull/1227) Handle 404 config-error state better: (@peuter)
+- [#1225](https://github.com/CometVisu/CometVisu/pull/1225) update sentry libraries (@peuter)
+- [#1224](https://github.com/CometVisu/CometVisu/pull/1224) Doc + mobile.css fixes (@peuter)
+- [#1222](https://github.com/CometVisu/CometVisu/pull/1222) Reimplement forced image reload. (@ChristianMayer)
+- [#1221](https://github.com/CometVisu/CometVisu/pull/1221) do not apply a function as css class, introduce a new type property fo… (@peuter)
+- [#1218](https://github.com/CometVisu/CometVisu/pull/1218) Bump path-parse from 1.0.6 to 1.0.7 (@dependabot[bot])
+- [#1220](https://github.com/CometVisu/CometVisu/pull/1220) Bump node-fetch from 2.6.1 to 2.6.7 (@dependabot[bot])
+- [#1219](https://github.com/CometVisu/CometVisu/pull/1219) Bump axios from 0.21.1 to 0.21.4 (@dependabot[bot])
+- [#1215](https://github.com/CometVisu/CometVisu/pull/1215) update monaco editor to current (@peuter)
+- [#1217](https://github.com/CometVisu/CometVisu/pull/1217) Fix warnings from PHP (@ChristianMayer)
+- [#1216](https://github.com/CometVisu/CometVisu/pull/1216) Fix clock plugin. (@ChristianMayer)
+
+### v0.12.0-RC6 (2022/02/13)
+
+- [#1212](https://github.com/CometVisu/CometVisu/pull/1212) Change tag mechanism (@ChristianMayer)
+- [#1211](https://github.com/CometVisu/CometVisu/pull/1211) Docker2multiarch (@ChristianMayer)
+- [#1210](https://github.com/CometVisu/CometVisu/pull/1210) Switch to Docker buildx and multiarch (@ChristianMayer)
+- [#1209](https://github.com/CometVisu/CometVisu/pull/1209) fix PageJump align in navbars (@peuter)
+- [#1207](https://github.com/CometVisu/CometVisu/pull/1207) Fix folder key navigation (@peuter)
+- [#1205](https://github.com/CometVisu/CometVisu/pull/1205) Bump follow-redirects from 1.14.7 to 1.14.8 in /.github/actions/github (@dependabot[bot])
+- [#1204](https://github.com/CometVisu/CometVisu/pull/1204) Bump follow-redirects from 1.13.2 to 1.14.8 (@dependabot[bot])
+- [#1201](https://github.com/CometVisu/CometVisu/pull/1201) make sure that images are scaled in (@peuter)
+- [#1195](https://github.com/CometVisu/CometVisu/pull/1195) Xml code formatting (@peuter)
+- [#1203](https://github.com/CometVisu/CometVisu/pull/1203) Handle non existing icon image paths gacefully. (@ChristianMayer)
+- [#1202](https://github.com/CometVisu/CometVisu/pull/1202) Fix MQTT client (@ChristianMayer)
+- [#1199](https://github.com/CometVisu/CometVisu/pull/1199) Bump karma from 6.3.4 to 6.3.14 (@dependabot[bot])
+- [#1183](https://github.com/CometVisu/CometVisu/pull/1183) Fix icon flicker (@ChristianMayer)
+- [#1194](https://github.com/CometVisu/CometVisu/pull/1194) Expose Timberwolf server info to Sentry (@ChristianMayer)
+- [#1190](https://github.com/CometVisu/CometVisu/pull/1190) Fix dataproviders for icons and addresses (@peuter)
+- [#1192](https://github.com/CometVisu/CometVisu/pull/1192) Clean image reload (@ChristianMayer)
+- [#1191](https://github.com/CometVisu/CometVisu/pull/1191) fix mobile safari scrolling in top navbar (@peuter)
+- [#1188](https://github.com/CometVisu/CometVisu/pull/1188) fix custom start date conversion, enables (@peuter)
+- [#1187](https://github.com/CometVisu/CometVisu/pull/1187) Fix cache problems (@peuter)
+- [#1182](https://github.com/CometVisu/CometVisu/pull/1182) detect mobile value from screen size not from user agent, but (@peuter)
+- [#1185](https://github.com/CometVisu/CometVisu/pull/1185) do not use getElementById, for some reason it does not work when the l… (@peuter)
+- [#1179](https://github.com/CometVisu/CometVisu/pull/1179) Fix image updates (@ChristianMayer)
+- [#1181](https://github.com/CometVisu/CometVisu/pull/1181) use browser history to close/show manager (@peuter)
+- [#1178](https://github.com/CometVisu/CometVisu/pull/1178) disable backend environment check in demo mode (@peuter)
+- [#1172](https://github.com/CometVisu/CometVisu/pull/1172) Add spellchecker for documentation (@peuter)
+- [#1177](https://github.com/CometVisu/CometVisu/pull/1177) Bump path-parse from 1.0.6 to 1.0.7 (@dependabot[bot])
+- [#1176](https://github.com/CometVisu/CometVisu/pull/1176) Bump axios from 0.21.1 to 0.21.4 (@dependabot[bot])
+- [#1175](https://github.com/CometVisu/CometVisu/pull/1175) Bump node-fetch from 2.6.1 to 2.6.7 (@dependabot[bot])
+- [#1173](https://github.com/CometVisu/CometVisu/pull/1173) update documentation mapping for development version (@peuter)
+
+### v0.12.0-RC5 (2022/01/28)
+
+- [#1171](https://github.com/CometVisu/CometVisu/pull/1171) fix styling and fake data in testmode demo (@peuter)
+- [#1170](https://github.com/CometVisu/CometVisu/pull/1170) read environment.php from backend and disable manager when PHP version… (@peuter)
+- [#1169](https://github.com/CometVisu/CometVisu/pull/1169) Manager fixes (@peuter)
+- [#1167](https://github.com/CometVisu/CometVisu/pull/1167) Infoposition doesn't need to be expert level. (@ChristianMayer)
+- [#1165](https://github.com/CometVisu/CometVisu/pull/1165) Remove wiregate from the documentation as it's too old (@ChristianMayer)
+- [#1166](https://github.com/CometVisu/CometVisu/pull/1166) fix metal design & confirm dialogs in manager (@peuter)
+- [#1162](https://github.com/CometVisu/CometVisu/pull/1162) Make external cause of CGI-BIN restart less dramatic (@ChristianMayer)
+- [#1161](https://github.com/CometVisu/CometVisu/pull/1161) Fix diagram plugin in correlation with cache (@ChristianMayer)
+- [#1160](https://github.com/CometVisu/CometVisu/pull/1160) set widget to selectable when the file is writeable to fix source code (@peuter)
+- [#1159](https://github.com/CometVisu/CometVisu/pull/1159) fix several errors in the reporting: (@peuter)
+- [#1155](https://github.com/CometVisu/CometVisu/pull/1155) Update the copyright for 2022 (@ChristianMayer)
+
+### v0.12.0-RC4 (2022/01/22)
+
+- [#1154](https://github.com/CometVisu/CometVisu/pull/1154) change link color improve visibility (@peuter)
+- [#1153](https://github.com/CometVisu/CometVisu/pull/1153) let side navbars scroll when there is not enough height (@peuter)
+- [#1152](https://github.com/CometVisu/CometVisu/pull/1152) fix plugin caching problems: (@peuter)
+- [#1150](https://github.com/CometVisu/CometVisu/pull/1150) Improve error reporting (@peuter)
+- [#1137](https://github.com/CometVisu/CometVisu/pull/1137) Make PHP more robust (@ChristianMayer)
+- [#1146](https://github.com/CometVisu/CometVisu/pull/1146) make sure that there is no reload duplicate (@peuter)
+- [#1145](https://github.com/CometVisu/CometVisu/pull/1145) Fix collection for manager (@peuter)
+- [#1139](https://github.com/CometVisu/CometVisu/pull/1139) update doc template and fix versions (@peuter)
+
+### v0.12.0-RC3 (2022/01/19)
+
+- [#1132](https://github.com/CometVisu/CometVisu/pull/1132) Fix ServiceWorker by using whitelist for caching (@peuter)
+
+### v0.12.0-RC2 (2022/01/18)
+
+- [#1125](https://github.com/CometVisu/CometVisu/pull/1125) Fix manager errors found in rc1 (@peuter)
+- [#1126](https://github.com/CometVisu/CometVisu/pull/1126) do not access serviceworker when its not available (@peuter)
+- [#1124](https://github.com/CometVisu/CometVisu/pull/1124) Make slider handle stay on right position when not in view. (@ChristianMayer)
+- [#1123](https://github.com/CometVisu/CometVisu/pull/1123) Reduce PHP warnings, fixes #1119 (@ChristianMayer)
+- [#1122](https://github.com/CometVisu/CometVisu/pull/1122) remove backend code (@peuter)
+- [#1121](https://github.com/CometVisu/CometVisu/pull/1121) Fix error messages and plugin robustness (@peuter)
+- [#1115](https://github.com/CometVisu/CometVisu/pull/1115) update sentry library, change sourcemap upload call (@peuter)
+- [#1110](https://github.com/CometVisu/CometVisu/pull/1110) do not use page type in navbars because the content (@peuter)
+- [#1112](https://github.com/CometVisu/CometVisu/pull/1112) Metal design fixes (@peuter)
+- [#1111](https://github.com/CometVisu/CometVisu/pull/1111) Fix version update (@peuter)
+
+### v0.12.0-RC1 (2022/01/16)
+
+- [#1103](https://github.com/CometVisu/CometVisu/pull/1103) enable caching via service worker (@peuter)
+- [#1104](https://github.com/CometVisu/CometVisu/pull/1104) Update change log (@ChristianMayer)
+- [#1101](https://github.com/CometVisu/CometVisu/pull/1101) pages need no clearfix (@peuter)
+- [#1102](https://github.com/CometVisu/CometVisu/pull/1102) allow multiple custom classes (@peuter)
+- [#1099](https://github.com/CometVisu/CometVisu/pull/1099) Bump follow-redirects from 1.13.2 to 1.14.7 in /.github/actions/github (@dependabot[bot])
+- [#1097](https://github.com/CometVisu/CometVisu/pull/1097) Documentation enhancement: describe address (@ChristianMayer)
+- [#1098](https://github.com/CometVisu/CometVisu/pull/1098) Fix errors using the MQTT backend (@ChristianMayer)
+- [#1096](https://github.com/CometVisu/CometVisu/pull/1096) Update colorchooser to professional ColorChooser (@ChristianMayer)
+- [#1095](https://github.com/CometVisu/CometVisu/pull/1095) Show CV log messages when a screenshot build fails (@ChristianMayer)
+- [#1093](https://github.com/CometVisu/CometVisu/pull/1093) Make doc tool more unicode compatible to prevent it from failing (@ChristianMayer)
+- [#1091](https://github.com/CometVisu/CometVisu/pull/1091) upgrade monaco editor to 0.30.1 (@peuter)
+- [#1089](https://github.com/CometVisu/CometVisu/pull/1089) Enable new file manager in demo mode (readonly) (@peuter)
+- [#1088](https://github.com/CometVisu/CometVisu/pull/1088) fix pushbutton address variant option (@peuter)
+- [#1087](https://github.com/CometVisu/CometVisu/pull/1087) Allow image to be cropped on the top and / or the bottom (@ChristianMayer)
+- [#1086](https://github.com/CometVisu/CometVisu/pull/1086) Fix Influx data retrieval for month and year is broken (@ChristianMayer)
+- [#1084](https://github.com/CometVisu/CometVisu/pull/1084) skip comments in labels (@peuter)
+- [#1083](https://github.com/CometVisu/CometVisu/pull/1083) enable code linter (@peuter)
+- [#1082](https://github.com/CometVisu/CometVisu/pull/1082) Update dependencies to latest versions (@peuter)
+- [#1081](https://github.com/CometVisu/CometVisu/pull/1081) fix code scanning alerts (@peuter)
+- [#1080](https://github.com/CometVisu/CometVisu/pull/1080) workaround missing native paste support when running (@peuter)
+- [#1079](https://github.com/CometVisu/CometVisu/pull/1079) New set of tutorials: Raspberry Pi (@ChristianMayer)
+- [#1077](https://github.com/CometVisu/CometVisu/pull/1077) Fix clipboard handling in xml editors (@peuter)
+- [#1075](https://github.com/CometVisu/CometVisu/pull/1075) allow editing of 'custom' childs (where no schema support is given, e`… (@peuter)
+- [#1076](https://github.com/CometVisu/CometVisu/pull/1076) add about cometvisu dialog to the help menu (@peuter)
+- [#1074](https://github.com/CometVisu/CometVisu/pull/1074) add the changed design hints to the other examples (@peuter)
+- [#1073](https://github.com/CometVisu/CometVisu/pull/1073) Bump grunt from 1.1.0 to 1.3.0 (@dependabot[bot])
+- [#1072](https://github.com/CometVisu/CometVisu/pull/1072) Pr cleanup (@peuter)
+- [#1057](https://github.com/CometVisu/CometVisu/pull/1057) New tree editor for schema based XML-files (@peuter)
+- [#1067](https://github.com/CometVisu/CometVisu/pull/1067) metal design revised (@peuter)
+- [#1069](https://github.com/CometVisu/CometVisu/pull/1069) remove nightly badge and update download links (@peuter)
+- [#1068](https://github.com/CometVisu/CometVisu/pull/1068) obey mobile state when restoring cache (@peuter)
+- [#1066](https://github.com/CometVisu/CometVisu/pull/1066) Cleanup whats not working anyways (@peuter)
+- [#1065](https://github.com/CometVisu/CometVisu/pull/1065) Change regex for incapable safari. (@ChristianMayer)
+- [#1064](https://github.com/CometVisu/CometVisu/pull/1064) use indexedDB instead of localStorage (@peuter)
+- [#1060](https://github.com/CometVisu/CometVisu/pull/1060) Fix slider range (@ChristianMayer)
+- [#1058](https://github.com/CometVisu/CometVisu/pull/1058) check if an element has been found to apply the styling and add a vall… (@peuter)
+- [#1056](https://github.com/CometVisu/CometVisu/pull/1056) Bump y18n from 3.2.1 to 3.2.2 (@dependabot[bot])
+- [#1055](https://github.com/CometVisu/CometVisu/pull/1055) Implement KNX DPT for coloured light (@ChristianMayer)
+- [#1053](https://github.com/CometVisu/CometVisu/pull/1053) Update / sync icons (@ChristianMayer)
+- [#1052](https://github.com/CometVisu/CometVisu/pull/1052) Backend: client for MQTT (@ChristianMayer)
+- [#1051](https://github.com/CometVisu/CometVisu/pull/1051) Fix code that caused an infinite loop of `__makeNavbarValid` calls (@ChristianMayer)
+- [#1047](https://github.com/CometVisu/CometVisu/pull/1047) add address child to image to allow image URLs to be send via group ad… (@peuter)
+- [#1048](https://github.com/CometVisu/CometVisu/pull/1048) only mark the actual code in a line as error, not the indentation at t… (@peuter)
+- [#1046](https://github.com/CometVisu/CometVisu/pull/1046) request data must be a string (@peuter)
+- [#1044](https://github.com/CometVisu/CometVisu/pull/1044) update libraries and fix everything that was broken, (@peuter)
+- [#1043](https://github.com/CometVisu/CometVisu/pull/1043) fixes for openHAB REST API client (@peuter)
+- [#1042](https://github.com/CometVisu/CometVisu/pull/1042) Native openHAB REST API client (@peuter)
+- [#1041](https://github.com/CometVisu/CometVisu/pull/1041) Enable diagram influx to switch of time grouping (@ChristianMayer)
+- [#1037](https://github.com/CometVisu/CometVisu/pull/1037) Bump ecstatic from 3.3.0 to 3.3.2 (@dependabot[bot])
+- [#1039](https://github.com/CometVisu/CometVisu/pull/1039) Make include widget work again. (@ChristianMayer)
+- [#1036](https://github.com/CometVisu/CometVisu/pull/1036) Fix error pop up and rsslog (@ChristianMayer)
+- [#1035](https://github.com/CometVisu/CometVisu/pull/1035) Bump ini from 1.3.5 to 1.3.6 (@dependabot[bot])
+- [#1031](https://github.com/CometVisu/CometVisu/pull/1031) Bump http-proxy from 1.17.0 to 1.18.1 (@dependabot[bot])
+- [#1030](https://github.com/CometVisu/CometVisu/pull/1030) Bump handlebars from 4.0.12 to 4.7.6 (@dependabot[bot])
+- [#1032](https://github.com/CometVisu/CometVisu/pull/1032) Clock plugin enhancement (@ChristianMayer)
+- [#1029](https://github.com/CometVisu/CometVisu/pull/1029) Manager improvements (@peuter)
+- [#1028](https://github.com/CometVisu/CometVisu/pull/1028) Fix broken diagram widget (@ChristianMayer)
+- [#1025](https://github.com/CometVisu/CometVisu/pull/1025) replace links in configs (@peuter)
+- [#1024](https://github.com/CometVisu/CometVisu/pull/1024) Remove qx submodule (@peuter)
+- [#1023](https://github.com/CometVisu/CometVisu/pull/1023) Minor fixes (@peuter)
+- [#1022](https://github.com/CometVisu/CometVisu/pull/1022) make sure that resource/config content has 777 permissions (@peuter)
+- [#1021](https://github.com/CometVisu/CometVisu/pull/1021) Fix slider (@ChristianMayer)
+- [#1019](https://github.com/CometVisu/CometVisu/pull/1019) Validate hidden config (@peuter)
+- [#1018](https://github.com/CometVisu/CometVisu/pull/1018) do not show client connection error when the cometvisu is in the backh… (@peuter)
+- [#1017](https://github.com/CometVisu/CometVisu/pull/1017) fix client release builds and bintray deployment (@peuter)
+- [#1016](https://github.com/CometVisu/CometVisu/pull/1016) * add branch and build data as tag to sentry (@peuter)
+- [#1014](https://github.com/CometVisu/CometVisu/pull/1014) enable Sentry sourcemaps (@peuter)
+- [#1010](https://github.com/CometVisu/CometVisu/pull/1010) Fix the demo page (@peuter)
+- [#1009](https://github.com/CometVisu/CometVisu/pull/1009) Fix rest api (@peuter)
+- [#1008](https://github.com/CometVisu/CometVisu/pull/1008) add possibility to override the compilers output path + compiler updat… (@peuter)
+- [#1001](https://github.com/CometVisu/CometVisu/pull/1001) switch to qooxdoo compiler (@peuter)
+- [#1003](https://github.com/CometVisu/CometVisu/pull/1003) Ignore filed installed by (and thus controlled by) php-composer (@ChristianMayer)
+- [#1000](https://github.com/CometVisu/CometVisu/pull/1000) Fix Docu: add posibility to use the CV as App on the TWS #998 (@ChristianMayer)
+- [#999](https://github.com/CometVisu/CometVisu/pull/999) Feature: roundbar widget (@ChristianMayer)
+- [#997](https://github.com/CometVisu/CometVisu/pull/997) upgrade multitrigger to support multiple buttons and make the linefeed… (@peuter)
+- [#996](https://github.com/CometVisu/CometVisu/pull/996) change rest path for manager because it conflicts with the rest path o… (@peuter)
+- [#995](https://github.com/CometVisu/CometVisu/pull/995) make slider really readonly when there is no write address (@peuter)
+- [#994](https://github.com/CometVisu/CometVisu/pull/994) elem.children is a HTMLCollection and does not support forEach directl… (@peuter)
+- [#947](https://github.com/CometVisu/CometVisu/pull/947) Add REST-API and a new manager that uses it (@peuter)
+- [#993](https://github.com/CometVisu/CometVisu/pull/993) add resource/ to paths (@peuter)
+- [#992](https://github.com/CometVisu/CometVisu/pull/992) only use the content of real text nodes, e.g. avoid using the textualo… (@peuter)
+- [#991](https://github.com/CometVisu/CometVisu/pull/991) Little improvement to prevent drag ghosting (@ChristianMayer)
+- [#990](https://github.com/CometVisu/CometVisu/pull/990) Feature collapsable navbars (@ChristianMayer)
+- [#989](https://github.com/CometVisu/CometVisu/pull/989) make sure that we talk to the same backend as the main client (@peuter)
+- [#987](https://github.com/CometVisu/CometVisu/pull/987) prevent from saving invalid file and loosing all its content (@peuter)
+- [#984](https://github.com/CometVisu/CometVisu/pull/984) Client robustnes against temporary glitches (@ChristianMayer)
+- [#986](https://github.com/CometVisu/CometVisu/pull/986) fix label overriding by diagram title => needs to generate the (@peuter)
+- [#978](https://github.com/CometVisu/CometVisu/pull/978) Allow user to reload browser after bad error (@ChristianMayer)
+- [#975](https://github.com/CometVisu/CometVisu/pull/975) Fix open weather map name display (@ChristianMayer)
+- [#974](https://github.com/CometVisu/CometVisu/pull/974) fix client build and change openhab example address to a more defaulth… (@peuter)
+- [#970](https://github.com/CometVisu/CometVisu/pull/970) Fix OpenweatherMap (@ChristianMayer)
+- [#972](https://github.com/CometVisu/CometVisu/pull/972) Cherrypick #971 fix slider (@ChristianMayer)
+- [#969](https://github.com/CometVisu/CometVisu/pull/969) Cherry pick #968 (@ChristianMayer)
+- [#967](https://github.com/CometVisu/CometVisu/pull/967) Fix: XML DOM only has textContent but not innerText (@ChristianMayer)
+- [#965](https://github.com/CometVisu/CometVisu/pull/965) Bump tar from 2.2.1 to 2.2.2 (@dependabot[bot])
+- [#964](https://github.com/CometVisu/CometVisu/pull/964) Bump handlebars from 4.0.12 to 4.5.1 (@dependabot[bot])
+- [#963](https://github.com/CometVisu/CometVisu/pull/963) Bump ecstatic from 3.3.0 to 3.3.2 (@dependabot[bot])
+- [#962](https://github.com/CometVisu/CometVisu/pull/962) Bump fstream from 1.0.11 to 1.0.12 (@dependabot[bot])
+- [#961](https://github.com/CometVisu/CometVisu/pull/961) Bump mixin-deep from 1.3.1 to 1.3.2 (@dependabot[bot])
+- [#953](https://github.com/CometVisu/CometVisu/pull/953) Reduce some Qx and switch to native (@ChristianMayer)
+- [#960](https://github.com/CometVisu/CometVisu/pull/960) Cherry pick #957 and #958 (@ChristianMayer)
+- [#955](https://github.com/CometVisu/CometVisu/pull/955) Fix #954 - make datasourceIndex work again as RRD data for a diagram (@ChristianMayer)
+
+0.11.2
+======
+
+### v0.11.2 (2019/08/11 19:13 +00:00)
+- [#950](https://github.com/CometVisu/CometVisu/pull/950) do not use group widgets align setting as global class because its on… (@peuter)
+- [#948](https://github.com/CometVisu/CometVisu/pull/948) fix the problem that slider updates are send back to the backend agai… (@peuter)
+- [#946](https://github.com/CometVisu/CometVisu/pull/946) merge address modes when there is more than one entry for this address (@peuter)
+- [#944](https://github.com/CometVisu/CometVisu/pull/944) add format attributes to widgets that already support it (sync schema… (@peuter)
+- [#943](https://github.com/CometVisu/CometVisu/pull/943) fix template example to correctly bracket the actual template (@Zugschlus)
+- [#937](https://github.com/CometVisu/CometVisu/pull/937) fix initialization problem with colorchooser, when the update is rece… (@peuter)
+- [#934](https://github.com/CometVisu/CometVisu/pull/934) Fix for https://forum.timberwolf.io/viewtopic.php?p=8879#p8879 (@ChristianMayer)
+- [#927](https://github.com/CometVisu/CometVisu/pull/927) Add canonical_url to documentation (@ChristianMayer)
+- [#933](https://github.com/CometVisu/CometVisu/pull/933) Change docu symlinks (@ChristianMayer)
+- [#931](https://github.com/CometVisu/CometVisu/pull/931) Add transformations to influxdb request. (@ChristianMayer)
+- [#929](https://github.com/CometVisu/CometVisu/pull/929) fix templates with multiple child nodes (@peuter)
+- [#928](https://github.com/CometVisu/CometVisu/pull/928) Switch sitemap to https (@ChristianMayer)
+- [#925](https://github.com/CometVisu/CometVisu/pull/925) Make redirect point to correct path (@ChristianMayer)
+
+0.11.1
+======
+
+### v0.11.1 (2019/04/13 20:06 +00:00)
+
+- [#923](https://github.com/CometVisu/CometVisu/pull/923) Docu add tutorial: first steps (@ChristianMayer)
+- [#921](https://github.com/CometVisu/CometVisu/pull/921) - parse address in reload element (@peuter)
+- [#920](https://github.com/CometVisu/CometVisu/pull/920) use "long" values when "short"-ones are not set (@peuter)
+- [#915](https://github.com/CometVisu/CometVisu/pull/915) Hint for the rail mounted ARM based smaller TimberWolf servers (@ChristianMayer)
+- [#914](https://github.com/CometVisu/CometVisu/pull/914) Implement DPT17, DPT18 and DPT26 (@ChristianMayer)
+- [#913](https://github.com/CometVisu/CometVisu/pull/913) Make clock plugin more robust (@ChristianMayer)
+- [#912](https://github.com/CometVisu/CometVisu/pull/912) Fix broken editor data provider with mapping (@ChristianMayer)
+- [#909](https://github.com/CometVisu/CometVisu/pull/909) fix lost formulas when using cache. (@peuter)
+- [#907](https://github.com/CometVisu/CometVisu/pull/907) remove duplicate fakeserver initialization and add some metadata to t… (@peuter)
+- [#906](https://github.com/CometVisu/CometVisu/pull/906) also send the last value (@peuter)
+- [#903](https://github.com/CometVisu/CometVisu/pull/903) influxfetch could not handle series generated by smarthomeNG containi… (@zwopi)
+- [#901](https://github.com/CometVisu/CometVisu/pull/901) fix template rendering (needs to be tested in safari/ios). (@peuter, @ChristianMayer)
+
+0.11.0
+======
+
+### v0.11.0-RC6 (2019/03/09 10:17 +00:00)
+- [#896](https://github.com/CometVisu/CometVisu/pull/896) Fix refresh behaviour (@peuter)
+
+### v0.11.0-RC5 (2019/03/03 21:17 +00:00)
+- [#893](https://github.com/CometVisu/CometVisu/pull/893) Optimize Influx data handling when not all dates are set (@ChristianMayer)
+- [#891](https://github.com/CometVisu/CometVisu/pull/891) Fix iPad scroll during turning (@ChristianMayer)
+
+### v0.11.0-RC4 (2019/03/02 14:12 +00:00)
+- [#886](https://github.com/CometVisu/CometVisu/pull/886) disable caching for schema and config files in text editor. Fixes pro… (@peuter)
+- [#884](https://github.com/CometVisu/CometVisu/pull/884) include inobounce script from https://github.com/lazd/iNoBounce to di… (@peuter)
+- [#883](https://github.com/CometVisu/CometVisu/pull/883) delay backdrop validation when this.width === this.height === 0. Fixe… (@peuter)
+- [#882](https://github.com/CometVisu/CometVisu/pull/882) fix wrong overflow declaration (which broke the scrolling behaviour o… (@peuter)
+- [#879](https://github.com/CometVisu/CometVisu/pull/879) no undefined checks because the values might be null, fixes error whe… (@peuter)
+- [#881](https://github.com/CometVisu/CometVisu/pull/881) add filter to allow sentry.io XHR requests in mockup mode. (@peuter)
+- [#878](https://github.com/CometVisu/CometVisu/pull/878) Fix template parser (@peuter)
+- [#880](https://github.com/CometVisu/CometVisu/pull/880) enable sentry reports in demo-source (@ChristianMayer, @peuter)
+- [#877](https://github.com/CometVisu/CometVisu/pull/877) do not override grid settings when tooltip is enabled (@peuter)
+
+### v0.11.0-RC3 (2019/02/18 21:29 +00:00)
+- [#875](https://github.com/CometVisu/CometVisu/pull/875) Make sure elements are correctly positioned after page switch (@ChristianMayer)
+- [#872](https://github.com/CometVisu/CometVisu/pull/872) update version hints in demo mode (@peuter)
+- [#871](https://github.com/CometVisu/CometVisu/pull/871) update version hints in demo mode (@peuter)
+- [#870](https://github.com/CometVisu/CometVisu/pull/870) Place RSSLOG database file in the config/media directory (@ChristianMayer)
+- [#869](https://github.com/CometVisu/CometVisu/pull/869) init active state on load (@peuter)
+- [#867](https://github.com/CometVisu/CometVisu/pull/867) fix doc version path links if they differ from the real version name (@peuter)
+- [#868](https://github.com/CometVisu/CometVisu/pull/868) Feature close popups (@peuter)
+- [#866](https://github.com/CometVisu/CometVisu/pull/866) fix the listener id generation and the update listeners callback para… (@peuter)
+- [#865](https://github.com/CometVisu/CometVisu/pull/865) close popups when the corresponding page is left. (@peuter)
+- [#863](https://github.com/CometVisu/CometVisu/pull/863) Fix demo flat (@ChristianMayer)
+- [#861](https://github.com/CometVisu/CometVisu/pull/861) Sync Develop with Release 0.11.0-RC1 (@peuter, @ChristianMayer)
+
+### v0.11.0-RC2 (2019/02/16 18:19 +00:00)
+- [#859](https://github.com/CometVisu/CometVisu/pull/859) fix address regex (@peuter)
+- [#860](https://github.com/CometVisu/CometVisu/pull/860) make sure that record logs are not confused with console debug log messages (@peuter)
+
+### 0.11.0-RC1 (2019/02/07 06:47 +00:00)
+- [#858](https://github.com/CometVisu/CometVisu/pull/858) Better handling of version tags (@ChristianMayer)
+- [#856](https://github.com/CometVisu/CometVisu/pull/856) Prepare 0.11.0 release: change log and icons (@ChristianMayer)
+- [#855](https://github.com/CometVisu/CometVisu/pull/855) fix triggers (@peuter)
+- [#854](https://github.com/CometVisu/CometVisu/pull/854) Prepare 0.11.0 release (@ChristianMayer)
+- [#853](https://github.com/CometVisu/CometVisu/pull/853) fix some screenshot errors: (@peuter)
+- [#848](https://github.com/CometVisu/CometVisu/pull/848) Fix clock plugin (@peuter)
+- [#852](https://github.com/CometVisu/CometVisu/pull/852) Fix nearly all of the remaining doc errors (@ChristianMayer)
+- [#850](https://github.com/CometVisu/CometVisu/pull/850) Fix #832 by handling unset attributes better (@ChristianMayer)
+- [#847](https://github.com/CometVisu/CometVisu/pull/847) add connected property to provide the same api as the real client (@peuter)
+- [#845](https://github.com/CometVisu/CometVisu/pull/845) fix powerspectrum plugin (@peuter)
+- [#844](https://github.com/CometVisu/CometVisu/pull/844) - add link docs (de) and link both languages (@peuter)
+- [#846](https://github.com/CometVisu/CometVisu/pull/846) fix pagejump tests when bindClickToWidget is true (@peuter)
+- [#842](https://github.com/CometVisu/CometVisu/pull/842) Add web app docu and fix a bit of the rest (@ChristianMayer)
+- [#843](https://github.com/CometVisu/CometVisu/pull/843) fix pagejumps without name (@peuter)
+- [#841](https://github.com/CometVisu/CometVisu/pull/841) allow state-notification children in any order (@peuter)
+- [#838](https://github.com/CometVisu/CometVisu/pull/838) Fix schema (@peuter)
+- [#840](https://github.com/CometVisu/CometVisu/pull/840) - load config icons directly after parsing, as they might be used in … (@peuter)
+- [#839](https://github.com/CometVisu/CometVisu/pull/839) build source version of demo mode (@peuter)
+- [#837](https://github.com/CometVisu/CometVisu/pull/837) make slider send values during dragging again (@peuter)
+- [#830](https://github.com/CometVisu/CometVisu/pull/830) Demo mode (@peuter)
+- [#836](https://github.com/CometVisu/CometVisu/pull/836) Fix doc (@peuter)
+- [#835](https://github.com/CometVisu/CometVisu/pull/835) Fix docker push (@ChristianMayer)
+- [#831](https://github.com/CometVisu/CometVisu/pull/831) Enhance tr064 (@ChristianMayer)
+- [#834](https://github.com/CometVisu/CometVisu/pull/834) First try to build mulitarch Docker containers (@ChristianMayer)
+- [#820](https://github.com/CometVisu/CometVisu/pull/820) Enhance docu again (@ChristianMayer)
+- [#833](https://github.com/CometVisu/CometVisu/pull/833) Fix typo (@ChristianMayer)
+- [#826](https://github.com/CometVisu/CometVisu/pull/826) Fix notification docu (@peuter)
+- [#829](https://github.com/CometVisu/CometVisu/pull/829) add icon path hint for manager uploads (@peuter)
+- [#828](https://github.com/CometVisu/CometVisu/pull/828) really fix tests (@peuter)
+- [#827](https://github.com/CometVisu/CometVisu/pull/827) find message to delete via id not index (@peuter)
+- [#824](https://github.com/CometVisu/CometVisu/pull/824) check must be called outside foreach to prevent multiple calls of don… (@peuter)
+- [#823](https://github.com/CometVisu/CometVisu/pull/823) use a debounced function to load diagram data after pan event (@peuter)
+- [#821](https://github.com/CometVisu/CometVisu/pull/821) there is no this.error in static context (@peuter)
+- [#819](https://github.com/CometVisu/CometVisu/pull/819) Enhance docu timberwolf influx (@ChristianMayer)
+- [#818](https://github.com/CometVisu/CometVisu/pull/818) Fix more doc problems and be more verbose during generating (@ChristianMayer)
+- [#794](https://github.com/CometVisu/CometVisu/pull/794) Demo mode (@peuter)
+- [#816](https://github.com/CometVisu/CometVisu/pull/816) Fix and enhance docu (@ChristianMayer)
+- [#813](https://github.com/CometVisu/CometVisu/pull/813) fix more documentation problems: (@peuter)
+- [#812](https://github.com/CometVisu/CometVisu/pull/812) fix documentation problems: (@peuter)
+- [#803](https://github.com/CometVisu/CometVisu/pull/803) Docu update v0.11 (@matthias-mw)
+- [#810](https://github.com/CometVisu/CometVisu/pull/810) fix navbar selector (@peuter)
+- [#809](https://github.com/CometVisu/CometVisu/pull/809) Fix plugins (@peuter)
+- [#806](https://github.com/CometVisu/CometVisu/pull/806) fixes for calendarlist plugin to make it load (@peuter)
+- [#807](https://github.com/CometVisu/CometVisu/pull/807) fix plugin init errors (@peuter)
+- [#802](https://github.com/CometVisu/CometVisu/pull/802) do not increase blocker counter for unique messages: This unblocks th… (@peuter)
+- [#805](https://github.com/CometVisu/CometVisu/pull/805) make sure that the custom css files are loaded after the design css f… (@peuter)
+- [#801](https://github.com/CometVisu/CometVisu/pull/801) enable testMode when value == "1" (as documented in manual) (@peuter)
+- [#800](https://github.com/CometVisu/CometVisu/pull/800) fix loading problem of default config in text editor (@peuter)
+- [#791](https://github.com/CometVisu/CometVisu/pull/791) add templating feature for config files (@peuter)
+- [#788](https://github.com/CometVisu/CometVisu/pull/788) Allow external files to be loaded: (@peuter)
+- [#789](https://github.com/CometVisu/CometVisu/pull/789) Invalidate cache (@peuter)
+- [#786](https://github.com/CometVisu/CometVisu/pull/786) invalidate backdrop once the page gets visible (@peuter)
+- [#784](https://github.com/CometVisu/CometVisu/pull/784) read plugin list from part definition and add custom plugins from res… (@peuter)
+- [#790](https://github.com/CometVisu/CometVisu/pull/790) Update startpage parameter description to describe the new behaviour (@peuter)
+- [#775](https://github.com/CometVisu/CometVisu/pull/775) Add documentation for Docker integration (step #12 fix(?) TOC) (@ChristianMayer)
+- [#774](https://github.com/CometVisu/CometVisu/pull/774) Add documentation for Docker integration (step #11 - english) (@ChristianMayer)
+- [#773](https://github.com/CometVisu/CometVisu/pull/773) - do not remove the viewBox during SVG optimization (@peuter)
+- [#768](https://github.com/CometVisu/CometVisu/pull/768) copy IconConfig.js source file to build to make it available for the … (@peuter)
+- [#766](https://github.com/CometVisu/CometVisu/pull/766) Add documentation for Docker integration (step #10 - 0.10.2 vs. 0.11 … (@ChristianMayer)
+- [#765](https://github.com/CometVisu/CometVisu/pull/765) Add documentation for Docker integration (step #9 - just layout) (@ChristianMayer)
+- [#764](https://github.com/CometVisu/CometVisu/pull/764) Enhance docu docker (@ChristianMayer)
+- [#763](https://github.com/CometVisu/CometVisu/pull/763) Cleanup root dir (@peuter)
+- [#762](https://github.com/CometVisu/CometVisu/pull/762) Add documentation for Docker integration (step #6) (@ChristianMayer)
+- [#761](https://github.com/CometVisu/CometVisu/pull/761) Add documentation for Docker integration (step #5) (@ChristianMayer)
+- [#760](https://github.com/CometVisu/CometVisu/pull/760) Add documentation for Docker integration (step #4) (@ChristianMayer)
+- [#759](https://github.com/CometVisu/CometVisu/pull/759) Add documentation for Docker integration (step #3) (@ChristianMayer)
+- [#758](https://github.com/CometVisu/CometVisu/pull/758) Add documentation for Docker integration (step #2) (@ChristianMayer)
+- [#757](https://github.com/CometVisu/CometVisu/pull/757) Add documentation for Docker integration (first step) (@ChristianMayer)
+- [#754](https://github.com/CometVisu/CometVisu/pull/754) Update dependencies to the current releases (@peuter)
+- [#748](https://github.com/CometVisu/CometVisu/pull/748) do not send values that are received via update (@peuter)
+- [#752](https://github.com/CometVisu/CometVisu/pull/752) check if Localstorage is available (@peuter)
+- [#746](https://github.com/CometVisu/CometVisu/pull/746) another try to fix the sometimes failing test (@peuter)
+- [#745](https://github.com/CometVisu/CometVisu/pull/745) Enhance docker labels (@ChristianMayer, @peuter)
+- [#742](https://github.com/CometVisu/CometVisu/pull/742) create empty resource/config/backup dir in build (@peuter)
+- [#740](https://github.com/CometVisu/CometVisu/pull/740) Make entrypoint executeable to make container work (@ChristianMayer, @peuter)
+- [#739](https://github.com/CometVisu/CometVisu/pull/739) add dockerfile and nightly builds of docker images (@peuter)
+- [#736](https://github.com/CometVisu/CometVisu/pull/736) fix loading of unknown plugins in build (@peuter)
+- [#737](https://github.com/CometVisu/CometVisu/pull/737) Improving the metal-Design (@peuter)
+- [#735](https://github.com/CometVisu/CometVisu/pull/735) - introduce cv.ui.layout.States to be able to listen to events when e… (@peuter)
+- [#729](https://github.com/CometVisu/CometVisu/pull/729) Add sentry error reporting feature (@peuter)
+- [#719](https://github.com/CometVisu/CometVisu/pull/719) update script for CometVisu installation (@peuter)
+- [#734](https://github.com/CometVisu/CometVisu/pull/734) add Screenshot fixtures support (@peuter)
+- [#732](https://github.com/CometVisu/CometVisu/pull/732) fix api-doc references to use the full classname and replace the year… (@peuter)
+- [#733](https://github.com/CometVisu/CometVisu/pull/733) fix the URL for loading config files via HTTP when run by quercus PHP… (@peuter)
+- [#726](https://github.com/CometVisu/CometVisu/pull/726) add include files to config_check by resolving the includes … (@peuter)
+- [#727](https://github.com/CometVisu/CometVisu/pull/727) update monaco editor to latest version and do not try to load 'en' la… (@peuter)
+- [#728](https://github.com/CometVisu/CometVisu/pull/728) change folder hint (@peuter)
+- [#721](https://github.com/CometVisu/CometVisu/pull/721) shorter stack traces: (@peuter)
+- [#715](https://github.com/CometVisu/CometVisu/pull/715) fix error dialog: (@peuter)
+- [#718](https://github.com/CometVisu/CometVisu/pull/718) do not parse statusbar twice (@peuter)
+- [#717](https://github.com/CometVisu/CometVisu/pull/717) handle missing l + w => show error message (@peuter)
+- [#712](https://github.com/CometVisu/CometVisu/pull/712) handle missing i values in long-polling transport (@peuter)
+- [#710](https://github.com/CometVisu/CometVisu/pull/710) [ci nightly] update qx ref to get the fix for: (@peuter)
+- [#708](https://github.com/CometVisu/CometVisu/pull/708) show protocol errors found by client (@peuter)
+- [#705](https://github.com/CometVisu/CometVisu/pull/705) Fix design preview (@peuter)
+- [#704](https://github.com/CometVisu/CometVisu/pull/704) return only pages in getParentPage (@peuter)
+- [#702](https://github.com/CometVisu/CometVisu/pull/702) fix forceReload for CSS-Resources (@peuter)
+- [#698](https://github.com/CometVisu/CometVisu/pull/698) do not process the trailing throttled update (@peuter)
+- [#697](https://github.com/CometVisu/CometVisu/pull/697) do not re-send incoming slider value (@peuter)
+- [#694](https://github.com/CometVisu/CometVisu/pull/694) changes in included config parts were not recognized by the caching. … (@peuter)
+- [#695](https://github.com/CometVisu/CometVisu/pull/695) always use 'left' for unknown infoposition values (@peuter)
+- [#691](https://github.com/CometVisu/CometVisu/pull/691) defer diagram initialization to make sure that the sizes are calculated (@peuter)
+- [#688](https://github.com/CometVisu/CometVisu/pull/688) Fixes and upgrade for internal monaco text editor (@peuter)
+- [#687](https://github.com/CometVisu/CometVisu/pull/687) fix iconlist in new qooxdoo environment + some minor css optimizations (@peuter)
+- [#686](https://github.com/CometVisu/CometVisu/pull/686) call first makePageSizeValid immediately instead of queueing it (@peuter)
+- [#685](https://github.com/CometVisu/CometVisu/pull/685) fix colochooser rgb mode and remove jsdoc readme (@peuter)
+- [#684](https://github.com/CometVisu/CometVisu/pull/684) Minor spelling corrections (@Wallaby1999)
+- [#678](https://github.com/CometVisu/CometVisu/pull/678) disable drag boundaries (@peuter)
+- [#675](https://github.com/CometVisu/CometVisu/pull/675) Fix slider not sending values (@peuter)
+- [#673](https://github.com/CometVisu/CometVisu/pull/673) Fix SVG plugin (@peuter)
+- [#668](https://github.com/CometVisu/CometVisu/pull/668) - use watchdog only in long-polling as SSE has auto-reconnection hand… (@peuter)
+- [#665](https://github.com/CometVisu/CometVisu/pull/665) shutdown flot diagram when popup closes + fix diagram popup opening only on click (@peuter)
+- [#664](https://github.com/CometVisu/CometVisu/pull/664) start knob movement on slider-pointerdown (@peuter)
+- [#671](https://github.com/CometVisu/CometVisu/pull/671) allow standalone plugins (@peuter)
+- [#666](https://github.com/CometVisu/CometVisu/pull/666) create resource/config/media, because the empty dir is not copied and… (@peuter)
+- [#670](https://github.com/CometVisu/CometVisu/pull/670) make save path more robust (with or without resource/ prefix) (@peuter)
+- [#660](https://github.com/CometVisu/CometVisu/pull/660) Remove #calcrowspan element not its child (@peuter)
+- [#662](https://github.com/CometVisu/CometVisu/pull/662) fix message counter listener in badge and remove all listeners from c… (@peuter)
+- [#659](https://github.com/CometVisu/CometVisu/pull/659) fixes around the notification center: (@peuter)
+- [#657](https://github.com/CometVisu/CometVisu/pull/657) parse dataset result where we need integers, fixes rollover problem (@peuter)
+- [#635](https://github.com/CometVisu/CometVisu/pull/635) fix rsslog datetime value transformation + icon appearance in popup (@peuter)
+- [#656](https://github.com/CometVisu/CometVisu/pull/656) document log dump and disable cache in source version (@peuter)
+- [#610](https://github.com/CometVisu/CometVisu/pull/610) fix button animation (@peuter)
+- [#653](https://github.com/CometVisu/CometVisu/pull/653) minor enhacements in replay, mainly more information about runtime an… (@peuter)
+- [#637](https://github.com/CometVisu/CometVisu/pull/637) use docker image to create screenshots in travis (@peuter)
+- [#648](https://github.com/CometVisu/CometVisu/pull/648) prevent double editor screenshot generation, fix screen size in headl… (@peuter)
+- [#647](https://github.com/CometVisu/CometVisu/pull/647) prevent "too many arguments" after large changes (@peuter)
+- [#646](https://github.com/CometVisu/CometVisu/pull/646) do not use em for margin, leads to different heights in widgets, over… (@peuter)
+- [#644](https://github.com/CometVisu/CometVisu/pull/644) update flot to 0.8.3 to fix memory leak (@peuter)
+- [#643](https://github.com/CometVisu/CometVisu/pull/643) use animation frame to make sure that the dom element is ready (@peuter)
+- [#641](https://github.com/CometVisu/CometVisu/pull/641) return undefined instead of null (prevents 'null' string in visu) (@peuter)
+- [#633](https://github.com/CometVisu/CometVisu/pull/633) Enable doc generate in docker container (@peuter)
+- [#631](https://github.com/CometVisu/CometVisu/pull/631) fix vscode rst-preview settings (@peuter)
+- [#629](https://github.com/CometVisu/CometVisu/pull/629) fix screensave feature (@peuter)
+- [#628](https://github.com/CometVisu/CometVisu/pull/628) - initialize timeout plugin from constructor (has no domReady event) (@peuter)
+- [#624](https://github.com/CometVisu/CometVisu/pull/624) fix reload widget: (@peuter)
+- [#623](https://github.com/CometVisu/CometVisu/pull/623) fix icon handling (again) (@peuter)
+- [#621](https://github.com/CometVisu/CometVisu/pull/621) add Strg+M command to open notification center (@peuter)
+- [#619](https://github.com/CometVisu/CometVisu/pull/619) fix wrong startpage documentation (@peuter)
+- [#620](https://github.com/CometVisu/CometVisu/pull/620) update openhab installation description (@peuter)
+- [#622](https://github.com/CometVisu/CometVisu/pull/622) Several Bugfixes (@peuter)
+- [#617](https://github.com/CometVisu/CometVisu/pull/617) improve Openhab plugin + Notifications (@peuter)
+- [#613](https://github.com/CometVisu/CometVisu/pull/613) Messagecenter enhancements (@peuter, @ChristianMayer)
+- [#616](https://github.com/CometVisu/CometVisu/pull/616) fix broken editor attributes view (@peuter)
+- [#615](https://github.com/CometVisu/CometVisu/pull/615) make sure that there are always spaces between the classes and add co… (@peuter)
+- [#612](https://github.com/CometVisu/CometVisu/pull/612) fix broken link on master_doc (@peuter)
+- [#611](https://github.com/CometVisu/CometVisu/pull/611) fix relative version link to master page (@peuter)
+- [#607](https://github.com/CometVisu/CometVisu/pull/607) Xml text editor for config files (@peuter, @ChristianMayer)
+- [#609](https://github.com/CometVisu/CometVisu/pull/609) add hooks for submodule updates and source generation (@peuter)
+- [#608](https://github.com/CometVisu/CometVisu/pull/608) add some background documentation for developers (@ChristianMayer, @peuter)
+- [#601](https://github.com/CometVisu/CometVisu/pull/601) Introducing new NotificationCenter (@peuter, @ChristianMayer)
+- [#599](https://github.com/CometVisu/CometVisu/pull/599) fix slider sending 0 value (@peuter)
+- [#593](https://github.com/CometVisu/CometVisu/pull/593) ignore group click when target is 0, null, undefined, empty string or… (@peuter)
+- [#592](https://github.com/CometVisu/CometVisu/pull/592) Fix navbar scope (@peuter)
+- [#590](https://github.com/CometVisu/CometVisu/pull/590) make diagram initialization more robust (@peuter)
+- [#591](https://github.com/CometVisu/CometVisu/pull/591) fix month (@peuter)
+- [#586](https://github.com/CometVisu/CometVisu/pull/586) add button animation listeners only to real actors of the widget (and… (@peuter)
+- [#580](https://github.com/CometVisu/CometVisu/pull/580) use YQL service for external RSS feeds (@peuter)
+- [#581](https://github.com/CometVisu/CometVisu/pull/581) remove harcoded height style and move other page > .clearfix styles t… (@peuter)
+- [#582](https://github.com/CometVisu/CometVisu/pull/582) remove group rounding+spaces on mobile devices to fill the screen better (@peuter)
+- [#578](https://github.com/CometVisu/CometVisu/pull/578) always disable animations when speed is 0 (@peuter)
+- [#577](https://github.com/CometVisu/CometVisu/pull/577) Fix huge delay times with old safari browser when a page link is clicked (@ChristianMayer)
+- [#576](https://github.com/CometVisu/CometVisu/pull/576) stop mjpeg image loading and video playing when they are not visible (@peuter)
+- [#575](https://github.com/CometVisu/CometVisu/pull/575) Safari 5 fallback Window is called DOMWindow (@peuter)
+- [#574](https://github.com/CometVisu/CometVisu/pull/574) add out animation (@peuter)
+- [#573](https://github.com/CometVisu/CometVisu/pull/573) add missing set page visible to true when no animation is used (@peuter)
+- [#572](https://github.com/CometVisu/CometVisu/pull/572) several fixes for safari 5.1: (@peuter)
+- [#571](https://github.com/CometVisu/CometVisu/pull/571) translate error messages to german (@peuter)
+- [#570](https://github.com/CometVisu/CometVisu/pull/570) Fix for iPad (3rd gen) and old Safari (@ChristianMayer)
+- [#568](https://github.com/CometVisu/CometVisu/pull/568) remove overflow setting (@peuter)
+- [#566](https://github.com/CometVisu/CometVisu/pull/566) restart SSE connection when is has been closed (@peuter)
+- [#565](https://github.com/CometVisu/CometVisu/pull/565) improve reporting (@peuter)
+- [#564](https://github.com/CometVisu/CometVisu/pull/564) patch native add-/removeEventListener to capture the events for recor… (@peuter)
+- [#563](https://github.com/CometVisu/CometVisu/pull/563) completely restart xhr request (@peuter)
+- [#562](https://github.com/CometVisu/CometVisu/pull/562) Fix slide widget on knxd backend (@ChristianMayer)
+- [#558](https://github.com/CometVisu/CometVisu/pull/558) move t,i querystring parameters to the beginning + fix the address qu… (@peuter)
+- [#561](https://github.com/CometVisu/CometVisu/pull/561) Revert "Revert "enable/disable console logs via url parameter"" (@ChristianMayer)
+- [#560](https://github.com/CometVisu/CometVisu/pull/560) Revert "enable/disable console logs via url parameter" (@ChristianMayer)
+- [#557](https://github.com/CometVisu/CometVisu/pull/557) enable/disable console logs via url parameter (@peuter)
+- [#548](https://github.com/CometVisu/CometVisu/pull/548) add license header + backwards compability to client (@peuter)
+- [#546](https://github.com/CometVisu/CometVisu/pull/546) record/replay native events whereever possible (@peuter)
+- [#555](https://github.com/CometVisu/CometVisu/pull/555) do not call _onDomReady twice (@peuter)
+- [#553](https://github.com/CometVisu/CometVisu/pull/553) normalize Log urls to strip querystring from it and use it as request… (@peuter)
+- [#554](https://github.com/CometVisu/CometVisu/pull/554) Send correct MIME type for generated rss logs (@ChristianMayer)
+- [#552](https://github.com/CometVisu/CometVisu/pull/552) fix requests for the jquery version of the client (@peuter)
+- [#550](https://github.com/CometVisu/CometVisu/pull/550) fix request querystring for multiple data with same key (@peuter)
+- [#545](https://github.com/CometVisu/CometVisu/pull/545) merge next branch into develop (@peuter, @ChristianMayer, @ctr49)
+- [#544](https://github.com/CometVisu/CometVisu/pull/544) Release 0.10.2 (@ChristianMayer, @peuter, @Jens-Me)
+
+0.10.2
+======
+
+### v0.10.2 (2017/04/09 16:28 +00:00)
+- [#541](https://github.com/CometVisu/CometVisu/pull/541) Merge latests develop for release 0.10.2 (@peuter, @ChristianMayer, @staehler, @Jens-Me)
+- [#539](https://github.com/CometVisu/CometVisu/pull/539) check if tags is array otherwise treat is as string (@peuter)
+- [#538](https://github.com/CometVisu/CometVisu/pull/538) Release 0.10.1 (@ChristianMayer, @peuter, @Jens-Me)
+
+0.10.1
+======
+
+### 0.10.1 (2017/04/01 22:55 +00:00)
+- [#536](https://github.com/CometVisu/CometVisu/pull/536) fix startpage feature to allow Page names again (@peuter)
+- [#534](https://github.com/CometVisu/CometVisu/pull/534) Fix client (@ChristianMayer)
+- [#531](https://github.com/CometVisu/CometVisu/pull/531) update copyright year in header (@peuter)
+- [#530](https://github.com/CometVisu/CometVisu/pull/530) use current year in copyright hint (@peuter)
+- [#529](https://github.com/CometVisu/CometVisu/pull/529) add description how to sync local repo on command line (@peuter)
+- [#526](https://github.com/CometVisu/CometVisu/pull/526) add missing method (@peuter)
+- [#527](https://github.com/CometVisu/CometVisu/pull/527) github synchronisation documented (@staehler)
+- [#524](https://github.com/CometVisu/CometVisu/pull/524) Bump version to 0.10.0-dev (@ChristianMayer)
+- [#522](https://github.com/CometVisu/CometVisu/pull/522) Release 0.10.0 (@ChristianMayer, @peuter, @Jens-Me)
+- [#521](https://github.com/CometVisu/CometVisu/pull/521) Docu updated (@staehler)
+
+0.10.0
+======
+
+### 0.10.0-RC4 (2017/02/23 19:48 +00:00)
+- [#520](https://github.com/CometVisu/CometVisu/pull/520) fix for iOS touch handling
+- [#517](https://github.com/CometVisu/CometVisu/pull/517) add relative path hint for include widget (@peuter)
+- [#518](https://github.com/CometVisu/CometVisu/pull/518) cometvisu installation for openhab2 (@staehler)
+- [#516](https://github.com/CometVisu/CometVisu/pull/516) Fix build system for 2d demo and exclude icon SVG as it is too big (@ChristianMayer)
+- [#513](https://github.com/CometVisu/CometVisu/pull/513) Update backend communication (@ChristianMayer)
+- [#511](https://github.com/CometVisu/CometVisu/pull/511) call the transport restart method not the (not existing) client method (@peuter)
+
+### 0.10.0-RC3 (2017/02/18 14:18 +00:00)
+- [#507](https://github.com/CometVisu/CometVisu/pull/507) do not send rsslog request for openHAB through external (@peuter)
+- [#505](https://github.com/CometVisu/CometVisu/pull/505) read default scroll speed setting from cache (@peuter)
+
+### 0.10.0-RC2 (2017/02/11 15:26 +00:00)
+- [#494](https://github.com/CometVisu/CometVisu/pull/494) tweak requirejs settings to make sure everything is loaded in the cor… (@peuter)
+- [#498](https://github.com/CometVisu/CometVisu/pull/498) Update icons (@ChristianMayer)
+- [#496](https://github.com/CometVisu/CometVisu/pull/496) add class attribute for widgets that support it (by using createDefau… (@peuter)
+- [#492](https://github.com/CometVisu/CometVisu/pull/492) Fix build system and demo config (@ChristianMayer)
+
+### v0.10.0-RC1 (2017/02/05 15:23 +00:00)
+- [#491](https://github.com/CometVisu/CometVisu/pull/491) Add schema definition for openweathermap plugin (@ChristianMayer)
+- [#490](https://github.com/CometVisu/CometVisu/pull/490) Fix image width (@ChristianMayer)
+- [#488](https://github.com/CometVisu/CometVisu/pull/488) Fix issue 303: handle datasourceIndex in diagram plugin (@ChristianMayer)
+- [#487](https://github.com/CometVisu/CometVisu/pull/487) Make pitchblack design appear nicer (@ChristianMayer)
+- [#467](https://github.com/CometVisu/CometVisu/pull/467) remove console.log calls (@peuter)
+- [#483](https://github.com/CometVisu/CometVisu/pull/483) fix cached timer plugin (@peuter)
+- [#485](https://github.com/CometVisu/CometVisu/pull/485) - fix timeout plugin in cache mode (tested) (@peuter)
+- [#482](https://github.com/CometVisu/CometVisu/pull/482) Send click event on <a> elements on touch devices (@ChristianMayer)
+- [#480](https://github.com/CometVisu/CometVisu/pull/480) Fix 476 pure scroll (@ChristianMayer)
+- [#479](https://github.com/CometVisu/CometVisu/pull/479) read config as argument from stdin when called via php-cli (@ctr49)
+- [#478](https://github.com/CometVisu/CometVisu/pull/478) - correct handling of forceReload + enableCache (@peuter)
+- [#477](https://github.com/CometVisu/CometVisu/pull/477) skip cache when forceReload is true (@peuter)
+- [#474](https://github.com/CometVisu/CometVisu/pull/474) Gracefully handle a requested design that doesn't exist (@ChristianMayer)
+- [#470](https://github.com/CometVisu/CometVisu/pull/470) Update icons (@ChristianMayer)
+- [#468](https://github.com/CometVisu/CometVisu/pull/468) make examples loadable with current lib (@peuter)
+- [#466](https://github.com/CometVisu/CometVisu/pull/466) Remove unneded scroll bar and add optical seperator (@ChristianMayer)
+- [#464](https://github.com/CometVisu/CometVisu/pull/464) Fix counter image (@ChristianMayer)
+- [#463](https://github.com/CometVisu/CometVisu/pull/463) Prepare next release cycle (@ChristianMayer)
+- [#462](https://github.com/CometVisu/CometVisu/pull/462) Fix build system (@ChristianMayer)
+- [#460](https://github.com/CometVisu/CometVisu/pull/460) Fix #369: resizing doesnt trigger colspan switch (@ChristianMayer)
+- [#458](https://github.com/CometVisu/CometVisu/pull/458) Fix issue #414: Group address will not be written by editor when addre… (@ChristianMayer)
+- [#457](https://github.com/CometVisu/CometVisu/pull/457) Fix issue #350: Make startpage parameter more robust (@ChristianMayer)
+- [#456](https://github.com/CometVisu/CometVisu/pull/456) Enhance manager for media (@ChristianMayer)
+- [#455](https://github.com/CometVisu/CometVisu/pull/455) Fix for console error and not displaying external RSS feeds. (@ChristianMayer)
+- [#453](https://github.com/CometVisu/CometVisu/pull/453) look for rsslog.db in /etc/cometvisu (@ctr49)
+- [#452](https://github.com/CometVisu/CometVisu/pull/452) Refinement, typos, ... (@ChristianMayer)
+- [#451](https://github.com/CometVisu/CometVisu/pull/451) Refined descriptions (@ChristianMayer)
+- [#445](https://github.com/CometVisu/CometVisu/pull/445) add caching support for rendered DOM including all data needed
+- [#449](https://github.com/CometVisu/CometVisu/pull/449) add spaces (@peuter)
+- [#448](https://github.com/CometVisu/CometVisu/pull/448) add sitemap.xml generation for documentation (@peuter)
+- [#447](https://github.com/CometVisu/CometVisu/pull/447) add Makefile to allow `make html`... (@peuter)
+- [#446](https://github.com/CometVisu/CometVisu/pull/446) generate CVElements.yml from docs (@peuter)
+- [#444](https://github.com/CometVisu/CometVisu/pull/444) check if text is string before calling substring (@peuter)
+- [#443](https://github.com/CometVisu/CometVisu/pull/443) Speech-plugin enhancements: (@peuter)
+- [#441](https://github.com/CometVisu/CometVisu/pull/441) fix speech plugin: schema and documentation (@peuter)
+- [#440](https://github.com/CometVisu/CometVisu/pull/440) introducing automatic english doc generation... (@peuter)
+- [#439](https://github.com/CometVisu/CometVisu/pull/439) add simple text to speech plugin (@peuter)
+- [#438](https://github.com/CometVisu/CometVisu/pull/438) Rename docs folder (@peuter)
+- [#437](https://github.com/CometVisu/CometVisu/pull/437) change doc structure to <language>/<version>/(manual|api). (@peuter)
+- [#436](https://github.com/CometVisu/CometVisu/pull/436) New docs: InfoAction + PageJump (@peuter)
+- [#435](https://github.com/CometVisu/CometVisu/pull/435) add new custom directives descriptions (@peuter)
+- [#434](https://github.com/CometVisu/CometVisu/pull/434) - add scaffolding for plugins (@peuter)
+- [#432](https://github.com/CometVisu/CometVisu/pull/432) New docs (@peuter)
+- [#431](https://github.com/CometVisu/CometVisu/pull/431) add all trigger docs (@peuter)
+- [#430](https://github.com/CometVisu/CometVisu/pull/430) Add ImageTrigger... (@peuter)
+- [#429](https://github.com/CometVisu/CometVisu/pull/429) change mandatory translation to "Pflichtangabe" (@peuter)
+- [#428](https://github.com/CometVisu/CometVisu/pull/428) expand mandatory tooltip to whole word (@peuter)
+- [#427](https://github.com/CometVisu/CometVisu/pull/427) add some information from the source docs to the widget pages (author… (@peuter)
+- [#426](https://github.com/CometVisu/CometVisu/pull/426) add info widget (@peuter)
+- [#425](https://github.com/CometVisu/CometVisu/pull/425) Fix URL to make it valid (@ChristianMayer)
+- [#424](https://github.com/CometVisu/CometVisu/pull/424) change restructured map file suffix (@peuter)
+- [#423](https://github.com/CometVisu/CometVisu/pull/423) new Widget docs + documentation helper refactoring (@peuter)
+- [#422](https://github.com/CometVisu/CometVisu/pull/422) changing redirect structure (@peuter)
+- [#421](https://github.com/CometVisu/CometVisu/pull/421) use abbreviations instead of citations to avoid the linking problem. (@peuter)
+- [#420](https://github.com/CometVisu/CometVisu/pull/420) move redirect structure to gh-pages auto-commit (@peuter)
+- [#419](https://github.com/CometVisu/CometVisu/pull/419) improve declaration of mandatory elements and attributes (@peuter)
+- [#418](https://github.com/CometVisu/CometVisu/pull/418) fix broken build (@peuter)
+- [#417](https://github.com/CometVisu/CometVisu/pull/417) - introduce a single settings file with all relevant configuration ne… (@peuter)
+- [#415](https://github.com/CometVisu/CometVisu/pull/415) fix some doc-source errors, add xml-format content, disable scroll an… (@peuter)
+- [#413](https://github.com/CometVisu/CometVisu/pull/413) auto-create the redirect structure from document source (@peuter)
+- [#412](https://github.com/CometVisu/CometVisu/pull/412) add global header to all manual pages that shows a hint for developme… (@peuter)
+- [#411](https://github.com/CometVisu/CometVisu/pull/411) adding RRD examples (@peuter)
+- [#410](https://github.com/CometVisu/CometVisu/pull/410) add basic RST introduction (@peuter)
+- [#408](https://github.com/CometVisu/CometVisu/pull/408) Add RST custom directive descriptions (@peuter)
+- [#406](https://github.com/CometVisu/CometVisu/pull/406) transfer the update documentation (@peuter)
+- [#402](https://github.com/CometVisu/CometVisu/pull/402) Update visu_config.xsd for Documentation (@SirTobiIV)
+- [#405](https://github.com/CometVisu/CometVisu/pull/405) transfer wiki content from "install development version" (@peuter)
+- [#401](https://github.com/CometVisu/CometVisu/pull/401) add page widget documentation (@peuter)
+- [#400](https://github.com/CometVisu/CometVisu/pull/400) Update visu_config (@SirTobiIV)
+- [#395](https://github.com/CometVisu/CometVisu/pull/395) Update documentation for widget "page" (@SirTobiIV)
+- [#397](https://github.com/CometVisu/CometVisu/pull/397) Ignore Eclipse project files (@SirTobiIV)
+- [#398](https://github.com/CometVisu/CometVisu/pull/398) transfer metal design content from wiki, remove other design pages for.. (@peuter)
+- [#396](https://github.com/CometVisu/CometVisu/pull/396) - rename the custom directives to fit the common syntax (- instead of _) (@peuter)
+- [#394](https://github.com/CometVisu/CometVisu/pull/394) cleanup+tweak build script to gain some more speed (@peuter)
+- [#393](https://github.com/CometVisu/CometVisu/pull/393) Build matrix (@peuter)
+- [#392](https://github.com/CometVisu/CometVisu/pull/392) User manual updates (@peuter)
+- [#391](https://github.com/CometVisu/CometVisu/pull/391) some updates and added page stubs for internally linked pages (@peuter)
+- [#390](https://github.com/CometVisu/CometVisu/pull/390) User manual improvements (@peuter)
+- [#388](https://github.com/CometVisu/CometVisu/pull/388) Handle XSD annotation references in the editor (@ChristianMayer)
+- [#389](https://github.com/CometVisu/CometVisu/pull/389) Update readme, add test description to docs (@peuter)
+- [#387](https://github.com/CometVisu/CometVisu/pull/387) reference attributes in elements tables too + remove TODO (@peuter)
+- [#386](https://github.com/CometVisu/CometVisu/pull/386) reference attributes (@peuter)
+- [#385](https://github.com/CometVisu/CometVisu/pull/385) add -strip options to resize command... (@peuter)
+- [#383](https://github.com/CometVisu/CometVisu/pull/383) allow sending data to the same address multiple times (@peuter)
+- [#384](https://github.com/CometVisu/CometVisu/pull/384) Fix raw data input for powerspectrum screenshot (@ChristianMayer)
+- [#382](https://github.com/CometVisu/CometVisu/pull/382) More descriptions (@ChristianMayer)
+- [#381](https://github.com/CometVisu/CometVisu/pull/381) Attempt at top screenshot for powerspectrum manual (@ChristianMayer)
+- [#380](https://github.com/CometVisu/CometVisu/pull/380) Attempt at top screenshot for powerspectrum manual (@ChristianMayer)
+- [#379](https://github.com/CometVisu/CometVisu/pull/379) First attempt to add manual page for powerspectrum (@ChristianMayer)
+- [#378](https://github.com/CometVisu/CometVisu/pull/378) skip deployment when not in main repo (@peuter)
+- [#377](https://github.com/CometVisu/CometVisu/pull/377) order widgets by type + update widget template (@peuter)
+- [#376](https://github.com/CometVisu/CometVisu/pull/376) Add annotations for powerspectrum plugin and switch widget (@ChristianMayer)
+- [#375](https://github.com/CometVisu/CometVisu/pull/375) strip all meta-data from screenshots to allow git to check if the con… (@peuter)
+- [#374](https://github.com/CometVisu/CometVisu/pull/374) add the address text node to the auto-doc + annotation for that node … (@peuter)
+- [#373](https://github.com/CometVisu/CometVisu/pull/373) Improve information retrieval from XSD (@peuter)
+- [#372](https://github.com/CometVisu/CometVisu/pull/372) User manual (@peuter)
+- [#371](https://github.com/CometVisu/CometVisu/pull/371) User manual update (@peuter)
+- [#370](https://github.com/CometVisu/CometVisu/pull/370) User manual including toolchain for auto-generation (@peuter)
+- [#368](https://github.com/CometVisu/CometVisu/pull/368) New feature for Image widget: shrink to fit width (@ChristianMayer)
+- [#366](https://github.com/CometVisu/CometVisu/pull/366) Api Doc including build system (@peuter)
+- [#367](https://github.com/CometVisu/CometVisu/pull/367) New plugin for enertex smartmeter (@ChristianMayer)
+- [#363](https://github.com/CometVisu/CometVisu/pull/363) Added touch support for diagram (@cool-runnings)
+- [#365](https://github.com/CometVisu/CometVisu/pull/365) more unit tests + some fixes found during testing (@peuter)
+- [#354](https://github.com/CometVisu/CometVisu/pull/354) basic debian layout (@ctr49)
+- [#364](https://github.com/CometVisu/CometVisu/pull/364) fix pagejumps: use different key for target-path in data storage to s… (@peuter)
+- [#359](https://github.com/CometVisu/CometVisu/pull/359) Fix/colorchooser (@peuter)
+- [#361](https://github.com/CometVisu/CometVisu/pull/361) more unit tests (@peuter)
+- [#360](https://github.com/CometVisu/CometVisu/pull/360) fix build task (@peuter)
+- [#357](https://github.com/CometVisu/CometVisu/pull/357) add basic tests for most widgets including scaffolding function to ge… (@peuter)
+- [#2](https://github.com/CometVisu/CometVisu/pull/2) Rsslog external update (@ctr49)
+- [#356](https://github.com/CometVisu/CometVisu/pull/356) Update rsslog_external.php (@ctr49)
+- [#349](https://github.com/CometVisu/CometVisu/pull/349) login before generating page (setup_page() call): allows backends to … (@peuter)
+- [#348](https://github.com/CometVisu/CometVisu/pull/348) Switch icon to svg (@ChristianMayer, @peuter)
+- [#347](https://github.com/CometVisu/CometVisu/pull/347) use special backend headers if set (@peuter)
+- [#346](https://github.com/CometVisu/CometVisu/pull/346) Fix typo (@ChristianMayer)
+- [#344](https://github.com/CometVisu/CometVisu/pull/344) Add infrastructure to display system messages (@ChristianMayer)
+- [#343](https://github.com/CometVisu/CometVisu/pull/343) Fix demo_flat (@ChristianMayer)
+- [#342](https://github.com/CometVisu/CometVisu/pull/342) Cleanup resize and fix display bug (@ChristianMayer)
+- [#341](https://github.com/CometVisu/CometVisu/pull/341) Enhance 2d pages with contained mode (@ChristianMayer)
+- [#335](https://github.com/CometVisu/CometVisu/pull/335) more unit tests (@peuter)
+- [#333](https://github.com/CometVisu/CometVisu/pull/333) Enhancement: gacefully handle nonexistent plugins (@ChristianMayer)
+- [#329](https://github.com/CometVisu/CometVisu/pull/329) Fix broken connetion after time out (@ChristianMayer)
+
+0.9.2
+=====
+
+### v0.9.2 (2016/05/01 15:28 +00:00)
+- [#328](https://github.com/CometVisu/CometVisu/pull/328) Unittesting transform knx (@ChristianMayer)
+- [#321](https://github.com/CometVisu/CometVisu/pull/321) Fix editor after jQuery update (@ChristianMayer)
+- [#320](https://github.com/CometVisu/CometVisu/pull/320) Fix dependency to work with new jQuery version (@ChristianMayer)
+- [#317](https://github.com/CometVisu/CometVisu/pull/317) Fix DPT6.010 (@ChristianMayer)
+- [#315](https://github.com/CometVisu/CometVisu/pull/315) Fix index during restart (@ChristianMayer)
+- [#314](https://github.com/CometVisu/CometVisu/pull/314) Remove not existing file (@ChristianMayer)
+- [#310](https://github.com/CometVisu/CometVisu/pull/310) minor coding fixes (@peuter)
+- [#309](https://github.com/CometVisu/CometVisu/pull/309) Better select files for appcache (@ChristianMayer)
+- [#308](https://github.com/CometVisu/CometVisu/pull/308) Fix 2d3d demo (@ChristianMayer)
+- [#307](https://github.com/CometVisu/CometVisu/pull/307) Update jQuery and remove jQuery Tools Scrollable (@ChristianMayer)
+- [#304](https://github.com/CometVisu/CometVisu/pull/304) Introduce automated testing (@peuter)
+- [#301](https://github.com/CometVisu/CometVisu/pull/301) move infoaction plugin to structure/pure + some design fixes for info… (@peuter)
+- [#294](https://github.com/CometVisu/CometVisu/pull/294) Universal client (@peuter, @ChristianMayer, @tuxedo0801)
+- [#297](https://github.com/CometVisu/CometVisu/pull/297) Revert "Convert IconSet to webfont" (@ChristianMayer)
+- [#295](https://github.com/CometVisu/CometVisu/pull/295) Convert IconSet to webfont (@peuter)
+- [#293](https://github.com/CometVisu/CometVisu/pull/293) styling fixes (@peuter)
+- [#290](https://github.com/CometVisu/CometVisu/pull/290) fixed styling regression of widgetinfo elements in navbar-pagejumps i… (@peuter, @ChristianMayer)
+- [#292](https://github.com/CometVisu/CometVisu/pull/292) Release 0.9.1 (@ChristianMayer, @peuter)
+
+0.9.1
+=====
+
+### v0.9.1 (2016/03/13 22:20 +00:00)
+- [#289](https://github.com/CometVisu/CometVisu/pull/289) Add retry link to error message (@ChristianMayer)
+- [#288](https://github.com/CometVisu/CometVisu/pull/288) fix flavours not gettings applied in groups (@peuter)
+- [#286](https://github.com/CometVisu/CometVisu/pull/286) Fix case where page=null (@ChristianMayer)
+- [#285](https://github.com/CometVisu/CometVisu/pull/285) fix styling of widgetinfos in pagejumps by adding the infoaction clas… (@peuter)
+- [#282](https://github.com/CometVisu/CometVisu/pull/282) Fix to release script and clean up (@ChristianMayer)
+
+### v0.9.1-RC1 (2016/03/01 17:42 +00:00)
+- [#281](https://github.com/CometVisu/CometVisu/pull/281) Fix sprintf format position (@ChristianMayer)
+- [#261](https://github.com/CometVisu/CometVisu/pull/261) enable scrollable navbarLeft on mobile devices (@alltime84, @ChristianMayer, @peuter)
+- [#280](https://github.com/CometVisu/CometVisu/pull/280) auto-indentation (@peuter)
+- [#278](https://github.com/CometVisu/CometVisu/pull/278) write version to file during release (@peuter)
+- [#275](https://github.com/CometVisu/CometVisu/pull/275) Clean config demo dir (@ChristianMayer)
+- [#279](https://github.com/CometVisu/CometVisu/pull/279) Get rrd callback parameter (@ChristianMayer)
+- [#277](https://github.com/CometVisu/CometVisu/pull/277) some minor fixes (@peuter)
+- [#276](https://github.com/CometVisu/CometVisu/pull/276) implement grunt-based build system (@peuter)
+- [#269](https://github.com/CometVisu/CometVisu/pull/269) Add display of future events to rsslog (@cool-runnings)
+- [#272](https://github.com/CometVisu/CometVisu/pull/272) Fix tabs (@ChristianMayer)
+- [#270](https://github.com/CometVisu/CometVisu/pull/270) Fix widgets with callback in groups (@ChristianMayer)
+- [#267](https://github.com/CometVisu/CometVisu/pull/267) Page change callbacks (@ChristianMayer)
+- [#266](https://github.com/CometVisu/CometVisu/pull/266) Add link in editor to the manager (@ChristianMayer)
+- [#260](https://github.com/CometVisu/CometVisu/pull/260) Iconfix for coloring only for android < 4.4 required (@alltime84, @ChristianMayer, @peuter)
+- [#258](https://github.com/CometVisu/CometVisu/pull/258) Make GA update more robust (@ChristianMayer)
+- [#256](https://github.com/CometVisu/CometVisu/pull/256) New colspan system (@ChristianMayer)
+- [#257](https://github.com/CometVisu/CometVisu/pull/257) Fix refresh (@ChristianMayer)
+- [#247](https://github.com/CometVisu/CometVisu/pull/247) Structure where a design can set a default value (@ChristianMayer)
+- [#248](https://github.com/CometVisu/CometVisu/pull/248) Icon sync (@ChristianMayer)
+- [#246](https://github.com/CometVisu/CometVisu/pull/246) Sprintf undef fix (@ChristianMayer)
+- [#242](https://github.com/CometVisu/CometVisu/pull/242) mousehandler events (@ChristianMayer)
+- [#240](https://github.com/CometVisu/CometVisu/pull/240) multitrigger fix and improvement (@ChristianMayer)
+- [#239](https://github.com/CometVisu/CometVisu/pull/239) Fix to replace default config in manager (@ChristianMayer)
+- [#230](https://github.com/CometVisu/CometVisu/pull/230) Rsslog improvements (@ChristianMayer)
+- [#235](https://github.com/CometVisu/CometVisu/pull/235) Fix sprintf calling (@ChristianMayer)
+- [#237](https://github.com/CometVisu/CometVisu/pull/237) Add link to Manager in demo configs (@ChristianMayer)
+- [#234](https://github.com/CometVisu/CometVisu/pull/234) Fix throwing sprintf (@ChristianMayer)
+- [#231](https://github.com/CometVisu/CometVisu/pull/231) Better popups (@ChristianMayer)
+- [#229](https://github.com/CometVisu/CometVisu/pull/229) Better config file error handling. (@ChristianMayer)
+- [#233](https://github.com/CometVisu/CometVisu/pull/233) Navbar fix pure (@ChristianMayer)
+- [#232](https://github.com/CometVisu/CometVisu/pull/232) Fix demo with metal (@ChristianMayer)
+- [#201](https://github.com/CometVisu/CometVisu/pull/201) Allow custom class definition for text item (@cool-runnings)
+- [#224](https://github.com/CometVisu/CometVisu/pull/224) Comma cleanup (@ChristianMayer)
+- [#226](https://github.com/CometVisu/CometVisu/pull/226) Fix flow animation for svg backdrop (trick-o-matic) (@ChristianMayer)
+- [#228](https://github.com/CometVisu/CometVisu/pull/228) Allow icons added through the config file to be dynamic. (@ChristianMayer)
+- [#222](https://github.com/CometVisu/CometVisu/pull/222) Enable storing of config files which are server from external user folder (@peuter)
+- [#225](https://github.com/CometVisu/CometVisu/pull/225) Bugfix for bad mapping (@ChristianMayer)
+- [#211](https://github.com/CometVisu/CometVisu/pull/211) Support for bar / point style graphs (@joltcoke)
+- [#210](https://github.com/CometVisu/CometVisu/pull/210) Multi GA support for info widget (@joltcoke)
+- [#205](https://github.com/CometVisu/CometVisu/pull/205) added readonly mode for slider (@tuxedo0801)
+
+0.9.0
+=====
+
+Features / Improvements:
+
+81e6ba2 Mon, 1 Jun 2015 11:26:57 +0200 redesign of refresh-widget in top/bottom-navbars. Looks like Pagejumps now
+3fcdf23 Sun, 24 May 2015 21:16:24 +0200 Added optional parameter send_on_finish to slide
+fd25012 Tue, 28 Apr 2015 14:00:35 +0200 adding possibility to define a path for a pagejump and a scope where the pagejump is marked as active
+a4f9d9b Sun, 26 Apr 2015 19:38:38 +0200 Make all widgets use strict
+5743280 Sun, 26 Apr 2015 17:55:51 +0200 New feature: popup eventsThis will call a "close" event when a popup is being clicked.This close event can be also called externally to close a popup.Or you can listen externally to a close event for your own actions at that time. E.g. a diagram could listen to it to stop data fetching.
+af91486 Thu, 9 Apr 2015 08:55:43 +0200 renamed infowidget to widgetinfo and actionwidget to widgetaction
+0e80cd0 Sun, 29 Mar 2015 17:51:48 +0200 Make check_config a bit more robust against badly formed files.
+32eaca3 Wed, 25 Mar 2015 16:59:06 +0100 - plugin infoaction added (combine a info and an action widget) - pagejumps augmented to hold an info-widget
+c580956 Sun, 22 Mar 2015 13:04:20 +0100 - new client for openHAB2: using Server Side Events (SSE)
+e1d753c Mon, 16 Mar 2015 08:45:21 +0100 add support for openHAB DateTime items
+663f909 Sun, 1 Mar 2015 18:14:27 +0100 Update to latest icon set
+1047ae7 Sun, 1 Mar 2015 17:54:57 +0100 Two changes: - Remove firstdata event as nobody seems to use it. - Improve profiling by counting read-retries and supporting the browser profiling (add to URL: ...&profile=browser)
+7c0f8b9 Thu, 19 Feb 2015 22:46:25 +0100 Change make-iconhandler to respect the split of the icon config into iconconfig.js. Add latest kuf icons
+af826e6 Fri, 13 Feb 2015 22:28:59 +0100 Remove obsolete yepnope
+8715aee Mon, 9 Feb 2015 21:56:46 +0100 Added manoficons
+f9cc09a Sun, 1 Feb 2015 15:18:36 +0100 Textify CV to improve performance
+546809d Sun, 18 Jan 2015 18:07:53 +0000 New "feature": profiling instrumentation
+
+Bug fixes:
+
+af9ec61 Sun, 1 Nov 2015 22:52:34 +0100 Fix editor documentation / complex mode for webKit browsers
+9245fcf Sun, 1 Nov 2015 18:08:15 +0100 added missing session to write-command
+3e689f5 Sun, 1 Nov 2015 18:04:39 +0100 Fix wrong slider position due to wrong number type.
+6750762 Wed, 28 Oct 2015 17:51:03 +0100 fixed wrong comment in css
+38b2bd9 Mon, 12 Oct 2015 23:14:00 +0200 Fixed icon update Script to work with github and updated knx-uf-iconset
+8deecc4 Mon, 12 Oct 2015 23:13:43 +0200 Fixed missing var declaration and pragmatic solution regarding OH integration
+1499862 Mon, 21 Sep 2015 11:48:43 +0200 Fix position when slider is updatd while hidden
+a2e94b0 Fri, 29 May 2015 10:32:51 +0200 - fix for updates in diagram_info  (also fixes missing default mapping in diagram_info) see:http://knx-user-forum.de/forum/supportforen/cometvisu/829798-darstellungsprobleme-mit-git-version?p=835404#post835404
+4689fd1 Sat, 23 May 2015 23:46:36 +0200 Fix refresh widgetThe value attribute was not respected (cf. report at http://knx-user-forum.de/forum/supportforen/cometvisu/829798-darstellungsprobleme-mit-git-version?p=833726#post833726)
+34fdea0 Thu, 14 May 2015 18:13:04 +0200 Fix wgplugin_infoBug: values didn't get shownFeature: use default value handling as this allows styling and mapping
+449883a Thu, 7 May 2015 09:30:26 +0200 fix for height calculation on initial loading of visu (bottom navbar wasn´t visible)
+6466f92 Thu, 7 May 2015 09:05:01 +0200 reenable scope attribute for navbars
+4fdef6b Sat, 25 Apr 2015 00:03:43 +0200 Fix pagejump active state
+a016e79 Fri, 24 Apr 2015 18:09:04 +0200 Fix diagrams not redrawing after popup open+close
+540bb61 Fri, 24 Apr 2015 13:42:35 +0200 Fix diagrams not updating properly
+9d96284 Sat, 11 Apr 2015 12:08:35 +0200 fixes #162 axis-config was ignored completely
+b654b70 Sat, 11 Apr 2015 11:25:42 +0200 fixes #163
+75c77e2 Fri, 10 Apr 2015 10:45:08 +0200 - fix for clock-plugin dragging - fix for OH:date(time) transform handling
+13b8939 Fri, 10 Apr 2015 08:50:14 +0200 - added default mapping to metal-config - fix for default value handling (fixes #153)
+08334d3 Fri, 10 Apr 2015 08:50:01 +0200 fixes #152
+595e6d4 Thu, 9 Apr 2015 17:47:46 +0200 separate addresses for up/down action possible
+15c3e7f Thu, 9 Apr 2015 14:20:09 +0200 layout handlung fixed in SVG plugin
+ddb4f2e Thu, 9 Apr 2015 14:13:10 +0200 change svg-plugin creator to return string: fixes #151
+8f3ec4a Thu, 9 Apr 2015 09:49:55 +0200 - added default mapping to metal-config - fix for default value handling (fixes #153)
+0c549da Thu, 9 Apr 2015 09:14:26 +0200 fixes #152
+c580956 Sun, 22 Mar 2015 13:04:20 +0100 - Bugfixes for the color-transform calculation from HSV to RGB - Bugfixes for RGB-mode in colorshooser - changed XSD because colorchooser can work with only one address (which sends/reads rgb data)
+4ca3660 Mon, 16 Mar 2015 11:55:12 +0100 fix for sliders with min>0
+b1f86bd Sun, 15 Mar 2015 12:35:02 +0100 fix for slides without value
+cabacdd Fri, 13 Mar 2015 18:27:33 +0100 - fix for correct placement of the horizontal slider handle
+7ba196b Sun, 1 Mar 2015 17:13:53 +0100 Fix display / hide of navbar during setup time
+166f53e Sun, 1 Mar 2015 16:24:18 +0100 Differ in handling of touch+move by switching to scroll mode and stopping action mode.
+291a17c Sat, 28 Feb 2015 19:46:11 +0100 Fix active marking for pagejump in the navbars
+ef1079c Sat, 28 Feb 2015 18:48:32 +0100 Fix to respect size when raw numbers (instead ob number + 'px') were given
+9a09a85 Thu, 26 Feb 2015 22:40:13 +0100 Test fix for http://knx-user-forum.de/467025-post87.html
+e325f08 Sun, 22 Feb 2015 00:10:31 +0100 Possible fix for http://knx-user-forum.de/465733-post60.html
+a971317 Fri, 20 Feb 2015 18:15:05 +0100 Fix for http://knx-user-forum.de/cometvisu/41197-dev-mapping-icon-wird-nicht-geladen.html
+5e275c9 Tue, 17 Feb 2015 14:42:18 +0100 fix for automatic column adjustment inside groups
+403254d Sun, 15 Feb 2015 22:56:59 +0100 Fix for missing elements on a page end
+adf4ab2 Sun, 15 Feb 2015 22:39:50 +0100 Fix http://knx-user-forum.de/463835-post47.html
+1a541d3 Sun, 15 Feb 2015 17:10:29 +0100 Fix page switch by GA
+a03210f Thu, 12 Feb 2015 21:35:53 +0100 Fix for http://knx-user-forum.de/462242-post39.html
+825b75c Sun, 8 Feb 2015 22:33:38 +0100 Fix for https://github.com/CometVisu/CometVisu/issues/17
+feedc4e Thu, 29 Jan 2015 17:47:22 +0100 fixes missing inheritance of navbar visibility
+6d242ee Wed, 28 Jan 2015 17:47:07 +0100 changed bind_click_to_widget to always true for pagejumps, otherwise some strange CSS tricks are necessary to get pagejumps working in navbars and in pages at the same time
+28733c5 Sun, 25 Jan 2015 16:48:01 +0100 rowspan fix
+6f416c3 Sun, 25 Jan 2015 12:02:03 +0000 Fix for pagejumps to pages with not unique names: take the ancestor/descendant of th current page if there is one
+f6b02ff Sun, 25 Jan 2015 11:02:34 +0000 fix for showtopnavigation=false on subpages
+a4edf94 Sat, 24 Jan 2015 23:10:24 +0000 Fix column display in the navbars
+95875b4 Sat, 24 Jan 2015 20:31:20 +0000 Switch from absolute IDs to Page Names
+ffc6785 Sat, 24 Jan 2015 20:01:19 +0000 Fix for http://knx-user-forum.de/cometvisu/40537-visu_config-xsd-existiert-nicht.html
+a345ab1 Sat, 24 Jan 2015 10:22:07 +0000 bugfix Gauge plugin: adapt to new data hash
+c0d3e60 Sat, 24 Jan 2015 09:59:37 +0000 - fixes correct amount of columns in groups - some date for the root page was misplaced and therefore a couple of parameters could not be found (showtopnavigation, etc.)
+9c95111 Fri, 23 Jan 2015 21:22:10 +0000 Fix pagejumps where the ID had changed
+dacd7b5 Fri, 23 Jan 2015 13:55:45 +0000 fix for pagejumps that are not part of navbars
+7bb098c Fri, 16 Jan 2015 22:53:18 +0000 Bugfix and performance improvement for big configurations: only read GAs where the read flag is set (i.e. ignore write only GAs)
+9954d67 Thu, 15 Jan 2015 18:03:55 +0000 only query the skipped addresses in second request when enableQueue is active
+acc8c18 Thu, 15 Jan 2015 15:40:50 +0000 Fix for enableAddressQueue parameter, which loads the states on the start page first
+
+0.8.5
+=====
+
+- new feature: management interface to handle different configuration files
+- new feature: posibility to remember last page for next startup
+- better support for Android to add visu to the start screen. This includes
+  better icons to follow the latest Android style
+- diagram plugin: add attribute "resolution" to rrd definitions to allow custom 
+  resolution values
+- diagram plugin: allow custom start, end and resolution parameters
+- diagram plugin: allow offset for single RRDs
+- diagram plugin: bugfixes
+- editor: bugfix: xsd:integer did not allow negative values in editor
+- Update to latest KNX user forum iconset
+
+0.8.4
+=====
+
+- switch to AMD and new loading system
+- new widget: audio
+- new widget: refresh
+- updated icons
+- rsslog: mysql backend
+- basic support for KNX DPT 24.001
+- feature request #95: Formula and mapping can be combined 
+- diagram plugin: Added attribute "zoomYAxis" to enable/disable zooming on Y
+  axis, by default it is disabled
+- little bug fixes
+
+NOTE:
+-----
+
+Due to the new loading system it might be that custom scripts must be modfied!
+
+
+0.8.3
+=====
+
+- openHAB backend: improvements
+- icons updated to the latest version upstream
+- diagram plugin: new attribute timeformatTooltip for formatting the date string in the tooltip
+- diagram plugin: use flot tooltip plugin and implement basic panning and zooming
+- diagram plugin: Made address optional in diagram_info
+- diagram plugin: reworked and updated flot library
+- gauge plugin: demo config added (visu_config_gauge.xml)
+- rsslog plugin: add external sources for rsslog via php-fetcher
+- new plugin: calendarlist
+
+0.8.2
+=====
+
+- Bug fix to ensure resource loading order
+- Improvements and feature enhancements to the gauge plugin
+- diagram plugin: new attribute timeformat for formatting x-axis
+- diagram plugin: order of rrd-series must be deterministic
+- group widget: renamed attribute pagejumpTarget to target to unify naming of 
+  pagejumps
+  
+0.8.1
+=====
+
+- new plugin: gauge
+- Diagram plugin: Improve usage of RRDs with multiple datasources
+- Bug-fix: #91 Diagram plugin: previews not shown
+- other bugfixes for the diagram plugin
+- little bugfixes
+- updated icons
+- remove external dependencies (SVN feature)
+
+0.8.0
+=====
+
+Basically the same as the 0.8.0-RC5
+
+0.8.0-RC5
+=========
+
+- Bug fixes:
+  - #88 forceDevice=Desktop does not work as expected
+  - #89 Browser Back-Button sometimes needs to be pressed twice
+  - #90 RSSLog plugin: rsslog widget on subpage is not shown correctly on switch
+    to the subpage
+  - make config check and editor know SVG plugin
+  - page-widget with missing backdrop-attribute
+- remove KNX-UF-Iconset PDF overview as it is always out of date
+- rework design of show-icons.php
+- update knx-uf-iconset
+
+0.8.0-RC4
+=========
+
+- Bug fixes:
+  - fixes for the RSS log plugin
+  - #83 Line-Widget don't shown in the metal Design
+  - editor: fix a problem where navbar had no select-list for position
+- Move demo configs in own directory to separate them from the user configs
+- Show in demo config how the icons can be recolored
+- Add litte additional information that might help debugging during initial load
+
+0.8.0-RC3
+=========
+
+- Bug fixes:
+  - #79: right alignment for toggle, switch, trigger and diagram_info
+  - The page behaved differently under SVN version and release version due to 
+    different loading times of the CSS
+  - editor missed base type for some attributes
+  - sticking buttons (e.g. in the trigger widget) at least under Android 4.3
+  - a few minor ones
+
+0.8.0-RC2
+=========
+
+- Bug fixes:
+  - #78 Infotrigger
+  - remove type attribute of address element
+  - #79 for Pure design
+  - #80 y-coordinates not considered on 2D pages in design Metal
+  - bad icon display under old android versions (e.g. 2.3)
+  - prevent blocking of long runing RSS requests
+  - #81 iOS scrolling
+- Update of icons
+- Implemented check of library version before starting the visu
+- add type (text, 2d, 3d) as CSS class (type_text, type_2d, type_3d) to a page
+
+0.8.0-RC1
+=========
+
+- Lots of bug fixes
+- Code clean up
+- Additonal icons
+- Dynamical recoloring of the icons to prevent need to supply each color
+- Feature Request #66: default mapping and styling
+- Reflection API that might end up in an interactive editor
+- Change to the internal page and widgets paths - this might have an effect
+  on user configs!
+- Feature Request #69 Infotrigger: infoposition und change attribute
+- new pushbutton widget
+- temporary disabling of 3D pages in preparation for the next release
+- New feature: reload widget
+
+0.8.0~pre2
+==========
+
+- Move all the user configuration in separate subdirectory /config/.
+- Updated available icons
+- Modernisation of Pure design
+- Rename forceMobile to a more generic forceDevice
+- Implement fixed 2D pages.
+- Added scrolling parameter to iframe
+- Diagram-Plugin new features:
+  * steps: show steps instead of diagonal lines between data points
+  * scaling: multiply y-axis datapoints by scaling
+  * fill: fill the space below the line
+- Better handling of page transitions
+- Exclude IE 10 and following from the incompatability warning
+- Lots of bug fixes
+
+0.8.0~pre1
+==========
+
+- New feature: individual icons can be added in the meta area
+- New plugin: strftime
+- Obsolete plugin removed: jqclock (use strftime instead)
+- New plugin: clock
+- New plugin: rsslog
+- New plugin: upnpcontroller
+- New plugin: New plugin for displaying a blind-status with a svg-file.
+- Removed plugin: gweather
+- New widget: imagetrigger
+- New widget: include
+- New widget: pagejump
+- New widget: wgpluging_info
+- New widget: rgb
+- New widget: urltrigger
+- New design: pitchblack (needs config-rewrite)
+- New design: planet
+- New design: metal
+- New feature: wirteonly attribute
+- New feature: 2D and 3D modes
+- New feature: colspan (column-width is 8.33333%, i.e. 1/12)
+- New feature: rowspan (row-height is height of <text>-widget)
+- New feature: Added handling for browser back button
+               => go one level higher in page hierarchy.
+- New feature: Option to show current status in multitrigger widget
+- New feature: navbars
+- New feature: allow full JavaScript formulas for a mapping
+- New feature: icons
+- change text-align in pure-design (switch/un/unpressed) to center
+- diagram-Plugin: yaxismin, yaxismax, added diagram_info, multiple graphs per
+  diagram, multiple axis, labels
+- updated jQuery to 1.8.2
+- updated jQuery UI to 1.8.16
+- attribute "variant" for address is now a select-list on a per-widget-basis; 
+  will no longer be displayed when not available (declutter UI)
+- Bug fix: numbers between -1 and 0 didn't show a negative sign when the format 
+  string was used.
+- Bug fix for #3468526: Initial read is repeated after COMET Timeout
+- cometvisu-client: Force full reload before index might overflow during long
+  periods without interesting bus traffic
+- Added jquery.ui.touch-punch.js; script simulates touch events as mouse events
+  on jquery ui elements like a slider.
+- Cleaner file structure and automated build script:
+  * separation of CometVisu libraries and external dependencies
+  * initial support for automatic documentation generation (using YUIdoc)
+  * switch from big structure_pure.js to one file per widget
+  * switch from big structure_pure.js to one file per widget - part 2
+  * initial makefile that can reducde the multiple source files (e.g. for the 
+    widgets) into one to speed up network loading
+  * create "release" directory for concatenated and (in future) minimized
+    version
+- Switch readonly/writeonly to the new, unified attribute "mode" which might be
+  set to "disable", "read", "write" or "readwrite" (which is the default).
+- Highly improved display of config file XML errors
+- enable and disable pages via classes and not via individual style-attribute
+  anymore - this allows designs to react to it
+- Added tools to automatically modify a SVG that is used as a backdrop in 2D 
+  pages:
+  Pipe-O-Matic and Flow-O-Matic
+- New new custom event "scrolltopage" is called at the end of each page scroll
+- Additional attributes in pages element:
+  * max_mobile_screen_width: defines the maximum screen width where the 
+    mobile.css is used
+  * scroll_speed: defines the page scrolling speed (setting to 0 disables
+    scrolling)
+- slider enhancement to add the possibility to show its value
+- extension added to support openHAB (http://code.google.com/p/openhab/) as backend
+- Added class parameter for additional styling
+- lots of little bugfixes and improvements
+- Editor: old WYSIWYG-editor was removed due to existing and forseeable
+  compatibility issues and replaced by a future proof design
+- iframe-widget was renamed to web
+- improved performance for mobile devices by using their hardware acceleration
+- allow trigger and infotrigger widgets to distinguish between shorttime and
+  longtime clicks
+- improved performance for initial page loading by postponing the diagram
+  data retrieval
+- improved performance for initial page loading by using offline application 
+  caching
+- more reliable caching prevention by adding forceReload=true on the URL
+- new possibility to enable a simple status-update-queue, which loads the 
+  startpage items status first and then all other items status, can be enabled 
+  via URL-Parameter ?enableQueue=1
+- Implemented feature request #3203398: Make area for actions in 
+  switch/page-widgets bigger by using the new attribute bind_click_to_widget
+- show a waring alert if the user is using an unsupported browser
+- Implement feature request #3575661: "Screensaver Mode: Back to Home or
+  Slider through pages..."
+
+0.6.2
+=====
+
+This is a bug fix release to address bug 3465482 
+("Format string: wrong result for negative numbers above -1")
+
+0.6.1
+=====
+
+The identically to release 0.6.0
+This additional release is due to technical reasons.
+
+0.6.0
+=====
+
+The public beta release!
+(Basically the same as the 0.6.0-RC5)
+
+0.6.0-RC5
+=========
+
+- Last minute bug fix: in relative mode the infotrigger is using the variant
+  types "button" and "display" now
+- Last minute bug fix: change diagram to new syntax that uses explicit "label"
+  element
+- Layout fix: make help button in editor look the same
+
+0.6.0-RC4
+=========
+
+- Bug Fix: bing XSD up to date
+
+0.6.0-RC3
+=========
+
+- Fix rendering problem in discreet_slim
+- Fix Bug #3175343
+- Fix Bug in infotrigger (min/max clipping)
+- Compatability improvement for iPad
+- Improvements to default config and widget demo config
+- Fix Bug when value in styling didn't exist
+- New Feature: add link to show help (SF Wiki) in the editor
+- Add encode function for DPT16 (= 14 byte text)
+- Fix Bug: avoid overflow in infotrigger
+- Fix Bug in video element: remove "refresh" and add the more 
+  sensible "autoplay"
+- New Feature: Add favicon - edit in red, svn in black and release in sodium
+
+0.6.0-RC2
+=========
+
+- New Feature: Show version in status bar
+- New Feature: toogle-widget (switch toggling multiple values based on mapping)
+- New Feature: jqclock - a clock widget with statusbar-support
+- infotrigger widget:
+  - Show infoposition and format attribute in the editor
+  - New Feature: also send absolute value change
+- Add some missing links for DPT sub-types (incomplete; see Artifact 3424149)
+- Feature Request #3113716: "Addresses should be shown"
+- Fix Bug #3423019 and rendering problem in discreet_slim design
+- Fix Bug #3424149
+- Fix Bug #3370929: "Missing text in top line"
+- Fix Bug #3204682: "Caching on web server"
+- Fix Bug #3427309: "GA list unsorted in editor (transform_knx, get_adreesses)"
+- Fix Usability: add a button movement "animation" to the triggers so that a 
+  user has immediate feedback
+- Whitespace clean up (DON'T USE TABS IN THE CODE!)
+
+Config changes:
+- As the infotrigger can send absolute values now and the distinguishing of the
+  addesses for the relative mode based on the readonly attribute was unusual,
+  the new version is using the variant attribute of the address element now.
+  This will break backward compatability!
+
+0.6.0-RC1
+=========
+
+- Update flot to version 0.7 to have a better fix for bug 3175343
+- Refinement of the "pure" design
+- added frameborder and background to iframe
+- Plugins RSS and Yahoo-weather 
+- Add gweather (Google)-Plugin, withdraw zweather
+- Fix Bug #3376682
+- Add DPT16 to transform_knx
+- Design Alaska: multiple fixes
+- New Feature: widgets can be (optionally) marked by a maturity value
+
+0.6.0-pre1
+==========
+
+- New Feature: Multitrigger widget
+- New Feature: The switch widget can send arbitrary values now
+- New Feature: Add selectable config to check_config.php
+- New Feature: groups
+- New Feature: infotrigger widget
+- updated config scheme, added documentaion for widgets
+- added "align"-attribute to switch, trigger, multitrigger
+- Add jnotify statusbar instead of alerts in editor
+- Changed behaviour of the slider to not send any packets when it's changed by
+  an external packet - even if it can't display that value
+- diagrams: Fix Grid timezone and add periods+datasource
+- editor fixes: allow attributes for pages, don't drop names of "empty" pages
+- fix diagram_popup preview in design pure
+- Fix bug #3300926: "Multitrigger display broken"
+- Fix bug #3301566
+- Fix bug #3309264: fix for broken infotrigger scheme
+
+Config changes:
+- Change the ColorChooser plugin from using <address ... color="..."> to the new
+  common attribute "variant"
+NOTE: this breaks backward compatability. Please adjust your config file!
+
+0.5.3
+=====
+
+- New Design: "discreet_sand": dark text, light background
+- New Design: "discreet_slim": more widgets per line for bigger screens
+- New config structure: To allow widgets to listen to multiple addresses
+  the structure of the config file had to change.
+
+Config changes:
+The format of the config file has changed. Please update the existing file, so:
+- the labels are now sub elements of type <label>
+- the addresses are now sub elements of type <address> with the attributes
+  - src: the addess on the bus
+  - transform (optional): the name of a function that translates between the
+    raw values on the bus and the internal JavaScript types
+  - readonly (optional): when set to "true" the widget will only listen on
+    that address and not send values when the widget gets changed
+
+0.5.2
+=====
+
+- New Feature: Plugins
+- New Plugin: colorChooser (based on farbtastic)
+- New Feature: user settable status bar (i.e. footer)
+- New Feature: iframe widget
+- New Plugin: diagrams
+
+0.5.1
+=====
+
+- New Feature: editor (easily extensible)
+- New Feature: generic slide widget
+- New Feature: slide and dim widgets allow range and step attributes
+- New Feature: ranges for mapping and style
+- New Feature: tag for "line" break
+- New Feature: tag for images
+- New Feature: <text> has new optional attribute "align"
+- Added XML Schema / XSD to validate config-XML
+- New Feature: tag for videos (HTML5 based)
+- changed procedures for creating new widgets
+- added design "discreet", set as default
+- changed name for styles; new name: styling / stylings
+- NewFeature: the design can be set in the config - and even changed at runtime
+
+0.5.0
+=====
+
+- initial public release

@@ -1,0 +1,15 @@
+docutils
+sh
+sphinx==8.2.3
+lxml
+sphinxcontrib-plantuml
+sphinxcontrib-spelling
+sphinx_rtd_theme
+configparser
+PyYAML
+rjsmin
+semver
+requests
+Pillow
+python-dotenv
+pyenchant

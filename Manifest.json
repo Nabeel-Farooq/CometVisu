@@ -1,0 +1,48 @@
+{
+  "$schema": "https://qooxdoo.org/schema/Manifest-2-0-0.json",
+  "info": {
+    "name": "cv",
+    "summary": "CometVisu",
+    "description": "The CometVisu is an interactive, realtime, web based visualization.",
+    "homepage": "http://www.cometvisu.org/",
+    "license": "GPL-3.0",
+    "authors": [
+      {
+        "name": "Christian Mayer (ChristianMayer)",
+        "email": "CometVisu at ChristianMayer dot de"
+      },
+      {
+        "name": "Tobias Bräutigam (Peuter)",
+        "email": "tbraeutigam at gmail dot com"
+      }
+    ],
+    "version": "0.13.0-dev",
+    "sourceViewUri": "https://github.com/CometVisu/CometVisu/blob/develop/source/class/%{classFilePath}#L%{lineNumber}"
+  },
+  "provides": {
+    "namespace": "cv",
+    "encoding": "utf-8",
+    "class": "source/class",
+    "resource": "source/resource",
+    "translation": "source/translation"
+  },
+  "requires": {
+    "@qooxdoo/framework": "^7.2.1",
+    "johnspackman/UploadMgr": "^2.0.0",
+    "qooxdoo/qxl.versionlabel": "^2.0.0",
+    "qooxdoo/qxl.apiviewer": "^2.0.0",
+    "qooxdoo/qxl.dialog": "^5.0.0"
+  },
+  "externalResources": {
+    "script": [
+      "libs/EventRecorder.js",
+      "libs/favico.js",
+      "libs/jquery.js",
+      "libs/paho-mqtt.js",
+      "libs/sprintf.js",
+      "libs/strftime.js",
+      "libs/svg4everybody.js",
+      "libs/CvClientBaseClass.js"
+    ]
+  }
+}
