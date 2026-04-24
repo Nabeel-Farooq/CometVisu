@@ -27,16 +27,6 @@ How to install it:
 
 Please see the [INSTALL](./INSTALL.md) file.
 
-Support:
-========
-
-To discuss with the developers you can use the the KNX User Forum
-at 
-
-https://knx-user-forum.de/forum/supportforen/cometvisu
-
-(spoken languages are German and English)
-
 Prerequisites:
 ==============
 
