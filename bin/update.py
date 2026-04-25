@@ -7,7 +7,7 @@ import sys
 import time
 try:
     import urllib.request as request
-except:
+except: 
     import urllib as request
 import xml.etree.ElementTree as ET
 import re
